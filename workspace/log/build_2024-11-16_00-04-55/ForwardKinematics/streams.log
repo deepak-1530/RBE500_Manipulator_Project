@@ -1,0 +1,36 @@
+[0.482s] Invoking command in '/root/RBE500_Manipulator_Project/workspace/src/ForwardKinematics': PYTHONPATH=/root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ForwardKinematics build --build-base /root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/build install --record /root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/install.log --single-version-externally-managed install_data
+[0.660s] running egg_info
+[0.661s] creating ../../build/ForwardKinematics/ForwardKinematics.egg-info
+[0.661s] writing ../../build/ForwardKinematics/ForwardKinematics.egg-info/PKG-INFO
+[0.661s] writing dependency_links to ../../build/ForwardKinematics/ForwardKinematics.egg-info/dependency_links.txt
+[0.661s] writing entry points to ../../build/ForwardKinematics/ForwardKinematics.egg-info/entry_points.txt
+[0.662s] writing requirements to ../../build/ForwardKinematics/ForwardKinematics.egg-info/requires.txt
+[0.662s] writing top-level names to ../../build/ForwardKinematics/ForwardKinematics.egg-info/top_level.txt
+[0.662s] writing manifest file '../../build/ForwardKinematics/ForwardKinematics.egg-info/SOURCES.txt'
+[0.663s] reading manifest file '../../build/ForwardKinematics/ForwardKinematics.egg-info/SOURCES.txt'
+[0.664s] writing manifest file '../../build/ForwardKinematics/ForwardKinematics.egg-info/SOURCES.txt'
+[0.664s] running build
+[0.664s] running build_py
+[0.664s] creating /root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/build
+[0.664s] creating /root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/build/lib
+[0.665s] creating /root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/build/lib/ForwardKinematics
+[0.665s] copying ForwardKinematics/__init__.py -> /root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/build/lib/ForwardKinematics
+[0.665s] copying ForwardKinematics/ForwardKinematics.py -> /root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/build/lib/ForwardKinematics
+[0.665s] running install
+[0.665s] running install_lib
+[0.666s] creating /root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/lib/python3.10/site-packages/ForwardKinematics
+[0.666s] copying /root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/build/lib/ForwardKinematics/__init__.py -> /root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/lib/python3.10/site-packages/ForwardKinematics
+[0.666s] copying /root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/build/lib/ForwardKinematics/ForwardKinematics.py -> /root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/lib/python3.10/site-packages/ForwardKinematics
+[0.666s] byte-compiling /root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/lib/python3.10/site-packages/ForwardKinematics/__init__.py to __init__.cpython-310.pyc
+[0.667s] byte-compiling /root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/lib/python3.10/site-packages/ForwardKinematics/ForwardKinematics.py to ForwardKinematics.cpython-310.pyc
+[0.667s] running install_data
+[0.668s] creating /root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/share/ament_index
+[0.668s] creating /root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/share/ament_index/resource_index
+[0.668s] creating /root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/share/ament_index/resource_index/packages
+[0.668s] copying resource/ForwardKinematics -> /root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/share/ament_index/resource_index/packages
+[0.668s] copying package.xml -> /root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/share/ForwardKinematics
+[0.668s] running install_egg_info
+[0.669s] Copying ../../build/ForwardKinematics/ForwardKinematics.egg-info to /root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/lib/python3.10/site-packages/ForwardKinematics-0.0.0-py3.10.egg-info
+[0.670s] running install_scripts
+[0.685s] writing list of installed files to '/root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/install.log'
+[0.701s] Invoked command in '/root/RBE500_Manipulator_Project/workspace/src/ForwardKinematics' returned '0': PYTHONPATH=/root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ForwardKinematics build --build-base /root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/build install --record /root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/install.log --single-version-externally-managed install_data

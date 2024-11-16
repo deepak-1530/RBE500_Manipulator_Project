@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/ForwardKinematics/ForwardKinematics.egg-info/PKG-INFO
+../../build/ForwardKinematics/ForwardKinematics.egg-info/SOURCES.txt
+../../build/ForwardKinematics/ForwardKinematics.egg-info/dependency_links.txt
+../../build/ForwardKinematics/ForwardKinematics.egg-info/entry_points.txt
+../../build/ForwardKinematics/ForwardKinematics.egg-info/requires.txt
+../../build/ForwardKinematics/ForwardKinematics.egg-info/top_level.txt
+../../build/ForwardKinematics/ForwardKinematics.egg-info/zip-safe
+ForwardKinematics/ForwardKinematics.py
+ForwardKinematics/__init__.py
+resource/ForwardKinematics
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

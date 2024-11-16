@@ -1,0 +1,48 @@
+[0.000000] (-) TimerEvent: {}
+[0.000083] (ForwardKinematics) JobQueued: {'identifier': 'ForwardKinematics', 'dependencies': OrderedDict()}
+[0.000136] (ForwardKinematics) JobStarted: {'identifier': 'ForwardKinematics'}
+[0.099196] (-) TimerEvent: {}
+[0.199449] (-) TimerEvent: {}
+[0.299695] (-) TimerEvent: {}
+[0.399949] (-) TimerEvent: {}
+[0.481461] (ForwardKinematics) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ForwardKinematics', 'build', '--build-base', '/root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/build', 'install', '--record', '/root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/RBE500_Manipulator_Project/workspace/src/ForwardKinematics', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-0/default,104,0', 'HOSTNAME': '2d66e30aaf58', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root/RBE500_Manipulator_Project/workspace/src', 'TERM_PROGRAM_VERSION': '3.2a', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'screen', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics', 'PYTHONPATH': '/root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'TMUX_PANE': '%0'}, 'shell': False}
+[0.500021] (-) TimerEvent: {}
+[0.600224] (-) TimerEvent: {}
+[0.660267] (ForwardKinematics) StdoutLine: {'line': b'running egg_info\n'}
+[0.660746] (ForwardKinematics) StdoutLine: {'line': b'creating ../../build/ForwardKinematics/ForwardKinematics.egg-info\n'}
+[0.660917] (ForwardKinematics) StdoutLine: {'line': b'writing ../../build/ForwardKinematics/ForwardKinematics.egg-info/PKG-INFO\n'}
+[0.661103] (ForwardKinematics) StdoutLine: {'line': b'writing dependency_links to ../../build/ForwardKinematics/ForwardKinematics.egg-info/dependency_links.txt\n'}
+[0.661250] (ForwardKinematics) StdoutLine: {'line': b'writing entry points to ../../build/ForwardKinematics/ForwardKinematics.egg-info/entry_points.txt\n'}
+[0.661530] (ForwardKinematics) StdoutLine: {'line': b'writing requirements to ../../build/ForwardKinematics/ForwardKinematics.egg-info/requires.txt\n'}
+[0.661715] (ForwardKinematics) StdoutLine: {'line': b'writing top-level names to ../../build/ForwardKinematics/ForwardKinematics.egg-info/top_level.txt\n'}
+[0.661859] (ForwardKinematics) StdoutLine: {'line': b"writing manifest file '../../build/ForwardKinematics/ForwardKinematics.egg-info/SOURCES.txt'\n"}
+[0.662987] (ForwardKinematics) StdoutLine: {'line': b"reading manifest file '../../build/ForwardKinematics/ForwardKinematics.egg-info/SOURCES.txt'\n"}
+[0.663775] (ForwardKinematics) StdoutLine: {'line': b"writing manifest file '../../build/ForwardKinematics/ForwardKinematics.egg-info/SOURCES.txt'\n"}
+[0.664087] (ForwardKinematics) StdoutLine: {'line': b'running build\n'}
+[0.664333] (ForwardKinematics) StdoutLine: {'line': b'running build_py\n'}
+[0.664464] (ForwardKinematics) StdoutLine: {'line': b'creating /root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/build\n'}
+[0.664567] (ForwardKinematics) StdoutLine: {'line': b'creating /root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/build/lib\n'}
+[0.664675] (ForwardKinematics) StdoutLine: {'line': b'creating /root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/build/lib/ForwardKinematics\n'}
+[0.664793] (ForwardKinematics) StdoutLine: {'line': b'copying ForwardKinematics/__init__.py -> /root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/build/lib/ForwardKinematics\n'}
+[0.664880] (ForwardKinematics) StdoutLine: {'line': b'copying ForwardKinematics/ForwardKinematics.py -> /root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/build/lib/ForwardKinematics\n'}
+[0.664968] (ForwardKinematics) StdoutLine: {'line': b'running install\n'}
+[0.665086] (ForwardKinematics) StdoutLine: {'line': b'running install_lib\n'}
+[0.665673] (ForwardKinematics) StdoutLine: {'line': b'creating /root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/lib/python3.10/site-packages/ForwardKinematics\n'}
+[0.665936] (ForwardKinematics) StdoutLine: {'line': b'copying /root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/build/lib/ForwardKinematics/__init__.py -> /root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/lib/python3.10/site-packages/ForwardKinematics\n'}
+[0.666092] (ForwardKinematics) StdoutLine: {'line': b'copying /root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/build/lib/ForwardKinematics/ForwardKinematics.py -> /root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/lib/python3.10/site-packages/ForwardKinematics\n'}
+[0.666416] (ForwardKinematics) StdoutLine: {'line': b'byte-compiling /root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/lib/python3.10/site-packages/ForwardKinematics/__init__.py to __init__.cpython-310.pyc\n'}
+[0.666603] (ForwardKinematics) StdoutLine: {'line': b'byte-compiling /root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/lib/python3.10/site-packages/ForwardKinematics/ForwardKinematics.py to ForwardKinematics.cpython-310.pyc\n'}
+[0.667372] (ForwardKinematics) StdoutLine: {'line': b'running install_data\n'}
+[0.667568] (ForwardKinematics) StdoutLine: {'line': b'creating /root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/share/ament_index\n'}
+[0.667761] (ForwardKinematics) StdoutLine: {'line': b'creating /root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/share/ament_index/resource_index\n'}
+[0.667889] (ForwardKinematics) StdoutLine: {'line': b'creating /root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/share/ament_index/resource_index/packages\n'}
+[0.667993] (ForwardKinematics) StdoutLine: {'line': b'copying resource/ForwardKinematics -> /root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/share/ament_index/resource_index/packages\n'}
+[0.668089] (ForwardKinematics) StdoutLine: {'line': b'copying package.xml -> /root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/share/ForwardKinematics\n'}
+[0.668178] (ForwardKinematics) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.669263] (ForwardKinematics) StdoutLine: {'line': b'Copying ../../build/ForwardKinematics/ForwardKinematics.egg-info to /root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/lib/python3.10/site-packages/ForwardKinematics-0.0.0-py3.10.egg-info\n'}
+[0.669976] (ForwardKinematics) StdoutLine: {'line': b'running install_scripts\n'}
+[0.685196] (ForwardKinematics) StdoutLine: {'line': b"writing list of installed files to '/root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/install.log'\n"}
+[0.700349] (-) TimerEvent: {}
+[0.701118] (ForwardKinematics) CommandEnded: {'returncode': 0}
+[0.714289] (ForwardKinematics) JobEnded: {'identifier': 'ForwardKinematics', 'rc': 0}
+[0.714672] (-) EventReactorShutdown: {}
