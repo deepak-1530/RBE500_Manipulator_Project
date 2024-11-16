@@ -1,0 +1,75 @@
+[0.007s] Invoking command in '/root/RBE500_Manipulator_Project/workspace/build/dynamixel_workbench_toolbox': AMENT_PREFIX_PATH=/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk:/root/RBE500_Manipulator_Project/workspace/install/InverseKinematics:/root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics:/opt/ros/humble LD_LIBRARY_PATH=/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/dynamixel-workbench/dynamixel_workbench_toolbox -DCMAKE_INSTALL_PREFIX=/root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox
+[0.044s] -- The C compiler identification is GNU 11.4.0
+[0.088s] -- The CXX compiler identification is GNU 11.4.0
+[0.093s] -- Detecting C compiler ABI info
+[0.144s] -- Detecting C compiler ABI info - done
+[0.150s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.150s] -- Detecting C compile features
+[0.150s] -- Detecting C compile features - done
+[0.153s] -- Detecting CXX compiler ABI info
+[0.213s] -- Detecting CXX compiler ABI info - done
+[0.220s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.221s] -- Detecting CXX compile features
+[0.221s] -- Detecting CXX compile features - done
+[0.224s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.380s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.478s] -- Found dynamixel_sdk: 3.7.60 (/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[0.481s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.527s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.532s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.540s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.551s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.567s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.613s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.617s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.904s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.944s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.042s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.056s] -- Looking for pthread.h
+[1.334s] -- Looking for pthread.h - found
+[1.334s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.795s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.797s] -- Found Threads: TRUE  
+[2.105s] -- Configuring done
+[2.122s] -- Generating done
+[2.125s] -- Build files have been written to: /root/RBE500_Manipulator_Project/workspace/build/dynamixel_workbench_toolbox
+[2.157s] Invoked command in '/root/RBE500_Manipulator_Project/workspace/build/dynamixel_workbench_toolbox' returned '0': AMENT_PREFIX_PATH=/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk:/root/RBE500_Manipulator_Project/workspace/install/InverseKinematics:/root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics:/opt/ros/humble LD_LIBRARY_PATH=/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/dynamixel-workbench/dynamixel_workbench_toolbox -DCMAKE_INSTALL_PREFIX=/root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox
+[2.158s] Invoking command in '/root/RBE500_Manipulator_Project/workspace/build/dynamixel_workbench_toolbox': AMENT_PREFIX_PATH=/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk:/root/RBE500_Manipulator_Project/workspace/install/InverseKinematics:/root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics:/opt/ros/humble LD_LIBRARY_PATH=/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/RBE500_Manipulator_Project/workspace/build/dynamixel_workbench_toolbox -- -j12 -l12
+[2.303s] [ 20%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_toolbox.dir/src/dynamixel_workbench_toolbox/dynamixel_driver.cpp.o[0m
+[2.307s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_toolbox.dir/src/dynamixel_workbench_toolbox/dynamixel_item.cpp.o[0m
+[2.317s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_toolbox.dir/src/dynamixel_workbench_toolbox/dynamixel_tool.cpp.o[0m
+[2.324s] [ 80%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_toolbox.dir/src/dynamixel_workbench_toolbox/dynamixel_workbench.cpp.o[0m
+[2.907s] [100%] [32m[1mLinking CXX shared library libdynamixel_workbench_toolbox.so[0m
+[3.123s] [100%] Built target dynamixel_workbench_toolbox
+[3.160s] Invoked command in '/root/RBE500_Manipulator_Project/workspace/build/dynamixel_workbench_toolbox' returned '0': AMENT_PREFIX_PATH=/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk:/root/RBE500_Manipulator_Project/workspace/install/InverseKinematics:/root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics:/opt/ros/humble LD_LIBRARY_PATH=/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/RBE500_Manipulator_Project/workspace/build/dynamixel_workbench_toolbox -- -j12 -l12
+[3.207s] Invoking command in '/root/RBE500_Manipulator_Project/workspace/build/dynamixel_workbench_toolbox': AMENT_PREFIX_PATH=/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk:/root/RBE500_Manipulator_Project/workspace/install/InverseKinematics:/root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics:/opt/ros/humble LD_LIBRARY_PATH=/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/RBE500_Manipulator_Project/workspace/build/dynamixel_workbench_toolbox
+[3.217s] -- Install configuration: ""
+[3.217s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/lib/libdynamixel_workbench_toolbox.so
+[3.217s] -- Set runtime path of "/root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/lib/libdynamixel_workbench_toolbox.so" to ""
+[3.218s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/include/
+[3.218s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox
+[3.218s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_item.h
+[3.218s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_driver.h
+[3.219s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_workbench.h
+[3.219s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_tool.h
+[3.220s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/library_path.sh
+[3.220s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/library_path.dsv
+[3.220s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/share/ament_index/resource_index/package_run_dependencies/dynamixel_workbench_toolbox
+[3.221s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/share/ament_index/resource_index/parent_prefix_path/dynamixel_workbench_toolbox
+[3.221s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/ament_prefix_path.sh
+[3.222s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/ament_prefix_path.dsv
+[3.222s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/path.sh
+[3.222s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/path.dsv
+[3.223s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.bash
+[3.223s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.sh
+[3.223s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.zsh
+[3.224s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.dsv
+[3.224s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.dsv
+[3.224s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/share/ament_index/resource_index/packages/dynamixel_workbench_toolbox
+[3.225s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.225s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.226s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[3.226s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/dynamixel_workbench_toolboxConfig.cmake
+[3.226s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/dynamixel_workbench_toolboxConfig-version.cmake
+[3.227s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.xml
+[3.231s] Invoked command in '/root/RBE500_Manipulator_Project/workspace/build/dynamixel_workbench_toolbox' returned '0': AMENT_PREFIX_PATH=/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk:/root/RBE500_Manipulator_Project/workspace/install/InverseKinematics:/root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics:/opt/ros/humble LD_LIBRARY_PATH=/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/RBE500_Manipulator_Project/workspace/build/dynamixel_workbench_toolbox

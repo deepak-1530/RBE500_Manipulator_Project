@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-		'ForwardKinematics = ForwardKinematics.forward_kinematics:main'
+		'ForwardKinematics = ForwardKinematics.ForwardKinematics:main'
         ],
     },
 )

@@ -1,0 +1,1 @@
+/root/RBE500_Manipulator_Project/workspace/build/dynamixel_sdk/ament_cmake_environment_hooks/local_setup.bash

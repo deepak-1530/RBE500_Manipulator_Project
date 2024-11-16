@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/ForwardKinematics/ForwardKinematics.egg-info/PKG-INFO
+writing dependency_links to ../../build/ForwardKinematics/ForwardKinematics.egg-info/dependency_links.txt
+writing entry points to ../../build/ForwardKinematics/ForwardKinematics.egg-info/entry_points.txt
+writing requirements to ../../build/ForwardKinematics/ForwardKinematics.egg-info/requires.txt
+writing top-level names to ../../build/ForwardKinematics/ForwardKinematics.egg-info/top_level.txt
+reading manifest file '../../build/ForwardKinematics/ForwardKinematics.egg-info/SOURCES.txt'
+writing manifest file '../../build/ForwardKinematics/ForwardKinematics.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/lib/python3.10/site-packages/ForwardKinematics-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ForwardKinematics/ForwardKinematics.egg-info to /root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/lib/python3.10/site-packages/ForwardKinematics-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ForwardKinematics script to /root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics/lib/ForwardKinematics
+writing list of installed files to '/root/RBE500_Manipulator_Project/workspace/build/ForwardKinematics/install.log'

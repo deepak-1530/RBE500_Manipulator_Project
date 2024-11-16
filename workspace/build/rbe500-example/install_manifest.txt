@@ -1,0 +1,16 @@
+/root/RBE500_Manipulator_Project/workspace/install/rbe500-example/lib/rbe500-example/basic_robot_control
+/root/RBE500_Manipulator_Project/workspace/install/rbe500-example/share/ament_index/resource_index/package_run_dependencies/rbe500-example
+/root/RBE500_Manipulator_Project/workspace/install/rbe500-example/share/ament_index/resource_index/parent_prefix_path/rbe500-example
+/root/RBE500_Manipulator_Project/workspace/install/rbe500-example/share/rbe500-example/environment/ament_prefix_path.sh
+/root/RBE500_Manipulator_Project/workspace/install/rbe500-example/share/rbe500-example/environment/ament_prefix_path.dsv
+/root/RBE500_Manipulator_Project/workspace/install/rbe500-example/share/rbe500-example/environment/path.sh
+/root/RBE500_Manipulator_Project/workspace/install/rbe500-example/share/rbe500-example/environment/path.dsv
+/root/RBE500_Manipulator_Project/workspace/install/rbe500-example/share/rbe500-example/local_setup.bash
+/root/RBE500_Manipulator_Project/workspace/install/rbe500-example/share/rbe500-example/local_setup.sh
+/root/RBE500_Manipulator_Project/workspace/install/rbe500-example/share/rbe500-example/local_setup.zsh
+/root/RBE500_Manipulator_Project/workspace/install/rbe500-example/share/rbe500-example/local_setup.dsv
+/root/RBE500_Manipulator_Project/workspace/install/rbe500-example/share/rbe500-example/package.dsv
+/root/RBE500_Manipulator_Project/workspace/install/rbe500-example/share/ament_index/resource_index/packages/rbe500-example
+/root/RBE500_Manipulator_Project/workspace/install/rbe500-example/share/rbe500-example/cmake/rbe500-exampleConfig.cmake
+/root/RBE500_Manipulator_Project/workspace/install/rbe500-example/share/rbe500-example/cmake/rbe500-exampleConfig-version.cmake
+/root/RBE500_Manipulator_Project/workspace/install/rbe500-example/share/rbe500-example/package.xml

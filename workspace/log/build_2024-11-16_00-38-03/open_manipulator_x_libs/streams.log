@@ -1,0 +1,147 @@
+[0.011s] Invoking command in '/root/RBE500_Manipulator_Project/workspace/build/open_manipulator_x_libs': AMENT_PREFIX_PATH=/root/RBE500_Manipulator_Project/workspace/install/robotis_manipulator:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk:/root/RBE500_Manipulator_Project/workspace/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/RBE500_Manipulator_Project/workspace/install/robotis_manipulator:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk:/root/RBE500_Manipulator_Project/workspace/install/cmake_modules:/root/RBE500_Manipulator_Project/workspace/install/InverseKinematics:/root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics:/opt/ros/humble LD_LIBRARY_PATH=/root/RBE500_Manipulator_Project/workspace/install/robotis_manipulator/lib:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/lib:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs -DCMAKE_INSTALL_PREFIX=/root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs
+[0.053s] -- The C compiler identification is GNU 11.4.0
+[0.093s] -- The CXX compiler identification is GNU 11.4.0
+[0.099s] -- Detecting C compiler ABI info
+[0.150s] -- Detecting C compiler ABI info - done
+[0.156s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.157s] -- Detecting C compile features
+[0.157s] -- Detecting C compile features - done
+[0.159s] -- Detecting CXX compiler ABI info
+[0.215s] -- Detecting CXX compiler ABI info - done
+[0.221s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.221s] -- Detecting CXX compile features
+[0.221s] -- Detecting CXX compile features - done
+[0.231s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.368s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.459s] -- Found dynamixel_workbench_toolbox: 2.2.3 (/root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake)
+[0.502s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.507s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.514s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.526s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.542s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.585s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.588s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.649s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.671s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.706s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.714s] -- Looking for pthread.h
+[0.768s] -- Looking for pthread.h - found
+[0.768s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.826s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.827s] -- Found Threads: TRUE  
+[0.885s] -- Found robotis_manipulator: 1.0.0 (/root/RBE500_Manipulator_Project/workspace/install/robotis_manipulator/share/robotis_manipulator/cmake)
+[0.974s] -- Configuring done
+[0.991s] -- Generating done
+[0.992s] -- Build files have been written to: /root/RBE500_Manipulator_Project/workspace/build/open_manipulator_x_libs
+[1.003s] Invoked command in '/root/RBE500_Manipulator_Project/workspace/build/open_manipulator_x_libs' returned '0': AMENT_PREFIX_PATH=/root/RBE500_Manipulator_Project/workspace/install/robotis_manipulator:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk:/root/RBE500_Manipulator_Project/workspace/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/RBE500_Manipulator_Project/workspace/install/robotis_manipulator:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk:/root/RBE500_Manipulator_Project/workspace/install/cmake_modules:/root/RBE500_Manipulator_Project/workspace/install/InverseKinematics:/root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics:/opt/ros/humble LD_LIBRARY_PATH=/root/RBE500_Manipulator_Project/workspace/install/robotis_manipulator/lib:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/lib:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs -DCMAKE_INSTALL_PREFIX=/root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs
+[1.004s] Invoking command in '/root/RBE500_Manipulator_Project/workspace/build/open_manipulator_x_libs': AMENT_PREFIX_PATH=/root/RBE500_Manipulator_Project/workspace/install/robotis_manipulator:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk:/root/RBE500_Manipulator_Project/workspace/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/RBE500_Manipulator_Project/workspace/install/robotis_manipulator:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk:/root/RBE500_Manipulator_Project/workspace/install/cmake_modules:/root/RBE500_Manipulator_Project/workspace/install/InverseKinematics:/root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics:/opt/ros/humble LD_LIBRARY_PATH=/root/RBE500_Manipulator_Project/workspace/install/robotis_manipulator/lib:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/lib:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/RBE500_Manipulator_Project/workspace/build/open_manipulator_x_libs -- -j12 -l12
+[1.043s] [ 80%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_libs.dir/src/custom_trajectory.cpp.o[0m
+[1.043s] [ 80%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_libs.dir/src/kinematics.cpp.o[0m
+[1.043s] [ 80%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_libs.dir/src/dynamixel.cpp.o[0m
+[1.043s] [ 80%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_libs.dir/src/open_manipulator_x.cpp.o[0m
+[2.463s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/kinematics.cpp:[m[K In member function ‘[01m[Kvirtual void kinematics::SolverUsingCRAndJacobian::setOption(const void*)[m[K’:
+[2.465s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/kinematics.cpp:25:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.465s]    25 | void SolverUsingCRAndJacobian::setOption([01;35m[Kconst void *arg[m[K){}
+[2.465s]       |                                          [01;35m[K~~~~~~~~~~~~^~~[m[K
+[2.465s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:[m[K In member function ‘[01m[Kbool dynamixel::JointDynamixel::write_goal_position(std::vector<unsigned char>, std::vector<double>)[m[K’:
+[2.465s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:268:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kid_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[2.465s]   268 |   uint8_t [01;35m[Kid_array[m[K[actuator_id.size()];
+[2.465s]       |           [01;35m[K^~~~~~~~[m[K
+[2.465s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:269:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kgoal_position[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[2.466s]   269 |   int32_t [01;35m[Kgoal_position[m[K[actuator_id.size()];
+[2.466s]       |           [01;35m[K^~~~~~~~~~~~~[m[K
+[2.466s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:[m[K In member function ‘[01m[Kstd::vector<robotis_manipulator::_Point> dynamixel::JointDynamixel::receive_all_dynamixel_value(std::vector<unsigned char>)[m[K’:
+[2.466s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:293:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kid_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[2.466s]   293 |   uint8_t [01;35m[Kid_array[m[K[actuator_id.size()];
+[2.466s]       |           [01;35m[K^~~~~~~~[m[K
+[2.466s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:297:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kget_current[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[2.466s]   297 |   int32_t [01;35m[Kget_current[m[K[actuator_id.size()];
+[2.466s]       |           [01;35m[K^~~~~~~~~~~[m[K
+[2.466s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:298:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kget_velocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[2.466s]   298 |   int32_t [01;35m[Kget_velocity[m[K[actuator_id.size()];
+[2.466s]       |           [01;35m[K^~~~~~~~~~~~[m[K
+[2.466s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:299:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kget_position[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[2.466s]   299 |   int32_t [01;35m[Kget_position[m[K[actuator_id.size()];
+[2.467s]       |           [01;35m[K^~~~~~~~~~~~[m[K
+[2.470s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:[m[K In member function ‘[01m[Kbool dynamixel::JointDynamixelProfileControl::write_goal_profiling_control_value(std::vector<unsigned char>, std::vector<robotis_manipulator::_Point>)[m[K’:
+[2.470s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:604:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kid_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[2.471s]   604 |   uint8_t [01;35m[Kid_array[m[K[actuator_id.size()];
+[2.471s]       |           [01;35m[K^~~~~~~~[m[K
+[2.471s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:605:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kgoal_value[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[2.471s]   605 |   int32_t [01;35m[Kgoal_value[m[K[actuator_id.size()];
+[2.471s]       |           [01;35m[K^~~~~~~~~~[m[K
+[2.480s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:[m[K In member function ‘[01m[Kstd::vector<robotis_manipulator::_Point> dynamixel::JointDynamixelProfileControl::receive_all_dynamixel_value(std::vector<unsigned char>)[m[K’:
+[2.480s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:641:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kid_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[2.480s]   641 |   uint8_t [01;35m[Kid_array[m[K[actuator_id.size()];
+[2.480s]       |           [01;35m[K^~~~~~~~[m[K
+[2.480s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:645:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kget_current[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[2.480s]   645 |   int32_t [01;35m[Kget_current[m[K[actuator_id.size()];
+[2.480s]       |           [01;35m[K^~~~~~~~~~~[m[K
+[2.481s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:646:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kget_velocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[2.481s]   646 |   int32_t [01;35m[Kget_velocity[m[K[actuator_id.size()];
+[2.481s]       |           [01;35m[K^~~~~~~~~~~~[m[K
+[2.481s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:647:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kget_position[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[2.481s]   647 |   int32_t [01;35m[Kget_position[m[K[actuator_id.size()];
+[2.481s]       |           [01;35m[K^~~~~~~~~~~~[m[K
+[2.564s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/custom_trajectory.cpp:[m[K In member function ‘[01m[Kvirtual void custom_trajectory::Line::setOption(const void*)[m[K’:
+[2.564s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/custom_trajectory.cpp:93:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.564s]    93 | void Line::setOption([01;35m[Kconst void *arg[m[K) {}
+[2.564s]       |                      [01;35m[K~~~~~~~~~~~~^~~[m[K
+[2.568s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/custom_trajectory.cpp:[m[K In member function ‘[01m[Kvirtual void custom_trajectory::Circle::setOption(const void*)[m[K’:
+[2.568s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/custom_trajectory.cpp:167:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.568s]   167 | void Circle::setOption([01;35m[Kconst void *arg[m[K){}
+[2.568s]       |                        [01;35m[K~~~~~~~~~~~~^~~[m[K
+[2.571s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/custom_trajectory.cpp:[m[K In member function ‘[01m[Kvirtual void custom_trajectory::Rhombus::setOption(const void*)[m[K’:
+[2.571s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/custom_trajectory.cpp:260:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.571s]   260 | void Rhombus::setOption([01;35m[Kconst void *arg[m[K){}
+[2.571s]       |                         [01;35m[K~~~~~~~~~~~~^~~[m[K
+[2.574s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/custom_trajectory.cpp:[m[K In member function ‘[01m[Kvirtual void custom_trajectory::Heart::setOption(const void*)[m[K’:
+[2.574s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/custom_trajectory.cpp:334:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.574s]   334 | void Heart::setOption([01;35m[Kconst void *arg[m[K){}
+[2.574s]       |                       [01;35m[K~~~~~~~~~~~~^~~[m[K
+[2.665s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/kinematics.cpp:[m[K In member function ‘[01m[Kvirtual void kinematics::SolverUsingCRAndSRJacobian::setOption(const void*)[m[K’:
+[2.666s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/kinematics.cpp:179:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.666s]   179 | void SolverUsingCRAndSRJacobian::setOption([01;35m[Kconst void *arg[m[K){}
+[2.666s]       |                                            [01;35m[K~~~~~~~~~~~~^~~[m[K
+[2.808s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/kinematics.cpp:[m[K In member function ‘[01m[Kvirtual void kinematics::SolverUsingCRAndSRPositionOnlyJacobian::setOption(const void*)[m[K’:
+[2.809s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/kinematics.cpp:445:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.809s]   445 | void SolverUsingCRAndSRPositionOnlyJacobian::setOption([01;35m[Kconst void *arg[m[K){}
+[2.809s]       |                                                        [01;35m[K~~~~~~~~~~~~^~~[m[K
+[2.926s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/kinematics.cpp:[m[K In member function ‘[01m[Kvirtual void kinematics::SolverCustomizedforOMChain::setOption(const void*)[m[K’:
+[2.926s] [01m[K/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/kinematics.cpp:711:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.926s]   711 | void SolverCustomizedforOMChain::setOption([01;35m[Kconst void *arg[m[K){}
+[2.926s]       |                                            [01;35m[K~~~~~~~~~~~~^~~[m[K
+[10.899s] [100%] [32m[1mLinking CXX shared library libopen_manipulator_x_libs.so[0m
+[11.430s] [100%] Built target open_manipulator_x_libs
+[11.441s] Invoked command in '/root/RBE500_Manipulator_Project/workspace/build/open_manipulator_x_libs' returned '0': AMENT_PREFIX_PATH=/root/RBE500_Manipulator_Project/workspace/install/robotis_manipulator:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk:/root/RBE500_Manipulator_Project/workspace/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/RBE500_Manipulator_Project/workspace/install/robotis_manipulator:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk:/root/RBE500_Manipulator_Project/workspace/install/cmake_modules:/root/RBE500_Manipulator_Project/workspace/install/InverseKinematics:/root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics:/opt/ros/humble LD_LIBRARY_PATH=/root/RBE500_Manipulator_Project/workspace/install/robotis_manipulator/lib:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/lib:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/RBE500_Manipulator_Project/workspace/build/open_manipulator_x_libs -- -j12 -l12
+[11.472s] Invoking command in '/root/RBE500_Manipulator_Project/workspace/build/open_manipulator_x_libs': AMENT_PREFIX_PATH=/root/RBE500_Manipulator_Project/workspace/install/robotis_manipulator:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk:/root/RBE500_Manipulator_Project/workspace/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/RBE500_Manipulator_Project/workspace/install/robotis_manipulator:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk:/root/RBE500_Manipulator_Project/workspace/install/cmake_modules:/root/RBE500_Manipulator_Project/workspace/install/InverseKinematics:/root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics:/opt/ros/humble LD_LIBRARY_PATH=/root/RBE500_Manipulator_Project/workspace/install/robotis_manipulator/lib:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/lib:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/RBE500_Manipulator_Project/workspace/build/open_manipulator_x_libs
+[11.479s] -- Install configuration: ""
+[11.479s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/lib/libopen_manipulator_x_libs.so
+[11.486s] -- Set runtime path of "/root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/lib/libopen_manipulator_x_libs.so" to ""
+[11.486s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/include/
+[11.486s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/include//open_manipulator_x_libs
+[11.486s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/include//open_manipulator_x_libs/kinematics.hpp
+[11.487s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/include//open_manipulator_x_libs/open_manipulator_x.hpp
+[11.487s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/include//open_manipulator_x_libs/dynamixel.hpp
+[11.487s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/include//open_manipulator_x_libs/custom_trajectory.hpp
+[11.489s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/share/open_manipulator_x_libs/environment/library_path.sh
+[11.490s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/share/open_manipulator_x_libs/environment/library_path.dsv
+[11.490s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/share/ament_index/resource_index/package_run_dependencies/open_manipulator_x_libs
+[11.491s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/share/ament_index/resource_index/parent_prefix_path/open_manipulator_x_libs
+[11.491s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/share/open_manipulator_x_libs/environment/ament_prefix_path.sh
+[11.491s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/share/open_manipulator_x_libs/environment/ament_prefix_path.dsv
+[11.491s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/share/open_manipulator_x_libs/environment/path.sh
+[11.491s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/share/open_manipulator_x_libs/environment/path.dsv
+[11.492s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/share/open_manipulator_x_libs/local_setup.bash
+[11.492s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/share/open_manipulator_x_libs/local_setup.sh
+[11.492s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/share/open_manipulator_x_libs/local_setup.zsh
+[11.492s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/share/open_manipulator_x_libs/local_setup.dsv
+[11.492s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.dsv
+[11.493s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/share/ament_index/resource_index/packages/open_manipulator_x_libs
+[11.493s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/share/open_manipulator_x_libs/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.494s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/share/open_manipulator_x_libs/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.494s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/share/open_manipulator_x_libs/cmake/ament_cmake_export_libraries-extras.cmake
+[11.494s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/share/open_manipulator_x_libs/cmake/open_manipulator_x_libsConfig.cmake
+[11.494s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/share/open_manipulator_x_libs/cmake/open_manipulator_x_libsConfig-version.cmake
+[11.495s] -- Installing: /root/RBE500_Manipulator_Project/workspace/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.xml
+[11.499s] Invoked command in '/root/RBE500_Manipulator_Project/workspace/build/open_manipulator_x_libs' returned '0': AMENT_PREFIX_PATH=/root/RBE500_Manipulator_Project/workspace/install/robotis_manipulator:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk:/root/RBE500_Manipulator_Project/workspace/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/RBE500_Manipulator_Project/workspace/install/robotis_manipulator:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk:/root/RBE500_Manipulator_Project/workspace/install/cmake_modules:/root/RBE500_Manipulator_Project/workspace/install/InverseKinematics:/root/RBE500_Manipulator_Project/workspace/install/ForwardKinematics:/opt/ros/humble LD_LIBRARY_PATH=/root/RBE500_Manipulator_Project/workspace/install/robotis_manipulator/lib:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_workbench_toolbox/lib:/root/RBE500_Manipulator_Project/workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/RBE500_Manipulator_Project/workspace/build/open_manipulator_x_libs

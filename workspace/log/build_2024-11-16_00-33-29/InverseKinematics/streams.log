@@ -1,0 +1,23 @@
+[0.636s] Invoking command in '/root/RBE500_Manipulator_Project/workspace/src/InverseKinematics': PYTHONPATH=/root/RBE500_Manipulator_Project/workspace/build/InverseKinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/RBE500_Manipulator_Project/workspace/install/InverseKinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/InverseKinematics build --build-base /root/RBE500_Manipulator_Project/workspace/build/InverseKinematics/build install --record /root/RBE500_Manipulator_Project/workspace/build/InverseKinematics/install.log --single-version-externally-managed
+[0.817s] running egg_info
+[0.818s] writing ../../build/InverseKinematics/InverseKinematics.egg-info/PKG-INFO
+[0.818s] writing dependency_links to ../../build/InverseKinematics/InverseKinematics.egg-info/dependency_links.txt
+[0.819s] writing entry points to ../../build/InverseKinematics/InverseKinematics.egg-info/entry_points.txt
+[0.819s] writing requirements to ../../build/InverseKinematics/InverseKinematics.egg-info/requires.txt
+[0.819s] writing top-level names to ../../build/InverseKinematics/InverseKinematics.egg-info/top_level.txt
+[0.820s] reading manifest file '../../build/InverseKinematics/InverseKinematics.egg-info/SOURCES.txt'
+[0.822s] writing manifest file '../../build/InverseKinematics/InverseKinematics.egg-info/SOURCES.txt'
+[0.822s] running build
+[0.822s] running build_py
+[0.822s] copying InverseKinematics/InverseKinematics.py -> /root/RBE500_Manipulator_Project/workspace/build/InverseKinematics/build/lib/InverseKinematics
+[0.823s] running install
+[0.823s] running install_lib
+[0.824s] copying /root/RBE500_Manipulator_Project/workspace/build/InverseKinematics/build/lib/InverseKinematics/InverseKinematics.py -> /root/RBE500_Manipulator_Project/workspace/install/InverseKinematics/lib/python3.10/site-packages/InverseKinematics
+[0.824s] byte-compiling /root/RBE500_Manipulator_Project/workspace/install/InverseKinematics/lib/python3.10/site-packages/InverseKinematics/InverseKinematics.py to InverseKinematics.cpython-310.pyc
+[0.826s] running install_egg_info
+[0.827s] removing '/root/RBE500_Manipulator_Project/workspace/install/InverseKinematics/lib/python3.10/site-packages/InverseKinematics-0.0.0-py3.10.egg-info' (and everything under it)
+[0.827s] Copying ../../build/InverseKinematics/InverseKinematics.egg-info to /root/RBE500_Manipulator_Project/workspace/install/InverseKinematics/lib/python3.10/site-packages/InverseKinematics-0.0.0-py3.10.egg-info
+[0.828s] running install_scripts
+[0.846s] Installing InverseKinematics script to /root/RBE500_Manipulator_Project/workspace/install/InverseKinematics/lib/InverseKinematics
+[0.846s] writing list of installed files to '/root/RBE500_Manipulator_Project/workspace/build/InverseKinematics/install.log'
+[0.876s] Invoked command in '/root/RBE500_Manipulator_Project/workspace/src/InverseKinematics' returned '0': PYTHONPATH=/root/RBE500_Manipulator_Project/workspace/build/InverseKinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/RBE500_Manipulator_Project/workspace/install/InverseKinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/InverseKinematics build --build-base /root/RBE500_Manipulator_Project/workspace/build/InverseKinematics/build install --record /root/RBE500_Manipulator_Project/workspace/build/InverseKinematics/install.log --single-version-externally-managed

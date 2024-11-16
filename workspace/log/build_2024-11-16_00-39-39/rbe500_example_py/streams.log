@@ -1,0 +1,21 @@
+[0.661s] Invoking command in '/root/RBE500_Manipulator_Project/workspace/build/rbe500_example_py': PYTHONPATH=/root/RBE500_Manipulator_Project/workspace/build/rbe500_example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/RBE500_Manipulator_Project/workspace/install/rbe500_example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/RBE500_Manipulator_Project/workspace/build/rbe500_example_py/build --no-deps symlink_data --force
+[0.904s] running develop
+[0.904s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.904s]   warnings.warn(
+[1.032s] running egg_info
+[1.032s] writing rbe500_example_py.egg-info/PKG-INFO
+[1.033s] writing dependency_links to rbe500_example_py.egg-info/dependency_links.txt
+[1.033s] writing entry points to rbe500_example_py.egg-info/entry_points.txt
+[1.033s] writing requirements to rbe500_example_py.egg-info/requires.txt
+[1.033s] writing top-level names to rbe500_example_py.egg-info/top_level.txt
+[1.034s] reading manifest file 'rbe500_example_py.egg-info/SOURCES.txt'
+[1.035s] writing manifest file 'rbe500_example_py.egg-info/SOURCES.txt'
+[1.037s] running build_ext
+[1.037s] Creating /root/RBE500_Manipulator_Project/workspace/install/rbe500_example_py/lib/python3.10/site-packages/rbe500-example-py.egg-link (link to .)
+[1.038s] Installing basic_robot_control script to /root/RBE500_Manipulator_Project/workspace/install/rbe500_example_py/lib/rbe500_example_py
+[1.038s] 
+[1.038s] Installed /root/RBE500_Manipulator_Project/workspace/build/rbe500_example_py
+[1.038s] running symlink_data
+[1.038s] symbolically linking /root/RBE500_Manipulator_Project/workspace/build/rbe500_example_py/resource/rbe500_example_py -> /root/RBE500_Manipulator_Project/workspace/install/rbe500_example_py/share/ament_index/resource_index/packages
+[1.038s] symbolically linking /root/RBE500_Manipulator_Project/workspace/build/rbe500_example_py/package.xml -> /root/RBE500_Manipulator_Project/workspace/install/rbe500_example_py/share/rbe500_example_py
+[1.072s] Invoked command in '/root/RBE500_Manipulator_Project/workspace/build/rbe500_example_py' returned '0': PYTHONPATH=/root/RBE500_Manipulator_Project/workspace/build/rbe500_example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/RBE500_Manipulator_Project/workspace/install/rbe500_example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/RBE500_Manipulator_Project/workspace/build/rbe500_example_py/build --no-deps symlink_data --force
