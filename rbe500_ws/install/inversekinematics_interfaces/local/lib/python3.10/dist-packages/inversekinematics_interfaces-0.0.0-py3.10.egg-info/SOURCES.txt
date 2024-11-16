@@ -1,0 +1,8 @@
+setup.py
+inversekinematics_interfaces/__init__.py
+inversekinematics_interfaces.egg-info/PKG-INFO
+inversekinematics_interfaces.egg-info/SOURCES.txt
+inversekinematics_interfaces.egg-info/dependency_links.txt
+inversekinematics_interfaces.egg-info/top_level.txt
+inversekinematics_interfaces/srv/__init__.py
+inversekinematics_interfaces/srv/_inverse_kinematics_pose.py

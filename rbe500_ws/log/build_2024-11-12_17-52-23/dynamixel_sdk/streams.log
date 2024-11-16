@@ -1,0 +1,70 @@
+[0.019s] Invoking command in '/home/harmeet/rbe500_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/harmeet/rbe500_ws/src/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/harmeet/rbe500_ws/install/dynamixel_sdk
+[0.328s] -- The C compiler identification is GNU 11.4.0
+[0.522s] -- The CXX compiler identification is GNU 11.4.0
+[0.533s] -- Detecting C compiler ABI info
+[0.601s] -- Detecting C compiler ABI info - done
+[0.606s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.606s] -- Detecting C compile features
+[0.609s] -- Detecting C compile features - done
+[0.612s] -- Detecting CXX compiler ABI info
+[0.671s] -- Detecting CXX compiler ABI info - done
+[0.676s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.676s] -- Detecting CXX compile features
+[0.677s] -- Detecting CXX compile features - done
+[0.678s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.780s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.831s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.897s] -- Configuring done
+[0.902s] -- Generating done
+[0.903s] -- Build files have been written to: /home/harmeet/rbe500_ws/build/dynamixel_sdk
+[0.905s] Invoked command in '/home/harmeet/rbe500_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/harmeet/rbe500_ws/src/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/harmeet/rbe500_ws/install/dynamixel_sdk
+[0.906s] Invoking command in '/home/harmeet/rbe500_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harmeet/rbe500_ws/build/dynamixel_sdk -- -j16 -l16
+[0.935s] [ 10%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[0.935s] [ 20%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[0.935s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[0.935s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[0.935s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[0.935s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[0.936s] [ 70%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[0.936s] [ 80%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[0.936s] [ 90%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[1.426s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[1.492s] [100%] Built target dynamixel_sdk
+[1.502s] Invoked command in '/home/harmeet/rbe500_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harmeet/rbe500_ws/build/dynamixel_sdk -- -j16 -l16
+[1.530s] Invoking command in '/home/harmeet/rbe500_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/harmeet/rbe500_ws/build/dynamixel_sdk
+[1.535s] -- Install configuration: ""
+[1.536s] -- Execute custom install script
+[1.536s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[1.543s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[1.549s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[1.555s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[1.561s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[1.567s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[1.572s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[1.578s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[1.584s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[1.589s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[1.595s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[1.600s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[1.606s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[1.612s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[1.618s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[1.624s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[1.630s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[1.636s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[1.642s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[1.648s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[1.653s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[1.659s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[1.665s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[1.673s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[1.679s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[1.684s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[1.690s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[1.696s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[1.702s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.709s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[1.716s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[1.723s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[1.730s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[1.740s] Invoked command in '/home/harmeet/rbe500_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/harmeet/rbe500_ws/build/dynamixel_sdk

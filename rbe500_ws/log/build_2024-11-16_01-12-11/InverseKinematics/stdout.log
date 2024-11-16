@@ -1,0 +1,29 @@
+running egg_info
+creating ../../build/InverseKinematics/InverseKinematics.egg-info
+writing ../../build/InverseKinematics/InverseKinematics.egg-info/PKG-INFO
+writing dependency_links to ../../build/InverseKinematics/InverseKinematics.egg-info/dependency_links.txt
+writing entry points to ../../build/InverseKinematics/InverseKinematics.egg-info/entry_points.txt
+writing requirements to ../../build/InverseKinematics/InverseKinematics.egg-info/requires.txt
+writing top-level names to ../../build/InverseKinematics/InverseKinematics.egg-info/top_level.txt
+writing manifest file '../../build/InverseKinematics/InverseKinematics.egg-info/SOURCES.txt'
+reading manifest file '../../build/InverseKinematics/InverseKinematics.egg-info/SOURCES.txt'
+writing manifest file '../../build/InverseKinematics/InverseKinematics.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/harmeet/rbe500_ws/build/InverseKinematics/build
+creating /home/harmeet/rbe500_ws/build/InverseKinematics/build/lib
+creating /home/harmeet/rbe500_ws/build/InverseKinematics/build/lib/InverseKinematics
+copying InverseKinematics/__init__.py -> /home/harmeet/rbe500_ws/build/InverseKinematics/build/lib/InverseKinematics
+copying InverseKinematics/InverseKinematics.py -> /home/harmeet/rbe500_ws/build/InverseKinematics/build/lib/InverseKinematics
+running install
+running install_lib
+creating /home/harmeet/rbe500_ws/install/InverseKinematics/lib/python3.10/site-packages/InverseKinematics
+copying /home/harmeet/rbe500_ws/build/InverseKinematics/build/lib/InverseKinematics/__init__.py -> /home/harmeet/rbe500_ws/install/InverseKinematics/lib/python3.10/site-packages/InverseKinematics
+copying /home/harmeet/rbe500_ws/build/InverseKinematics/build/lib/InverseKinematics/InverseKinematics.py -> /home/harmeet/rbe500_ws/install/InverseKinematics/lib/python3.10/site-packages/InverseKinematics
+byte-compiling /home/harmeet/rbe500_ws/install/InverseKinematics/lib/python3.10/site-packages/InverseKinematics/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/harmeet/rbe500_ws/install/InverseKinematics/lib/python3.10/site-packages/InverseKinematics/InverseKinematics.py to InverseKinematics.cpython-310.pyc
+running install_egg_info
+Copying ../../build/InverseKinematics/InverseKinematics.egg-info to /home/harmeet/rbe500_ws/install/InverseKinematics/lib/python3.10/site-packages/InverseKinematics-0.0.0-py3.10.egg-info
+running install_scripts
+Installing InverseKinematics script to /home/harmeet/rbe500_ws/install/InverseKinematics/lib/InverseKinematics
+writing list of installed files to '/home/harmeet/rbe500_ws/build/InverseKinematics/install.log'

@@ -1,0 +1,17 @@
+{
+  "package_name": "inversekinematics_interfaces",
+  "output_dir": "/home/harmeet/rbe500_ws/build/inversekinematics_interfaces/rosidl_typesupport_cpp/inversekinematics_interfaces",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/harmeet/rbe500_ws/build/inversekinematics_interfaces/rosidl_adapter/inversekinematics_interfaces:srv/InverseKinematicsPose.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/harmeet/rbe500_ws/build/inversekinematics_interfaces/rosidl_adapter/inversekinematics_interfaces/srv/InverseKinematicsPose.idl"
+  ]
+}

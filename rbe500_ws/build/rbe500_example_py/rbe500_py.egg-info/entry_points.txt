@@ -1,0 +1,3 @@
+[console_scripts]
+basic_robot_forward = rbe500_py.basic_robot_forward:main
+

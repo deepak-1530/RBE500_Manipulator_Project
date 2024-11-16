@@ -1,0 +1,3 @@
+Invoking command in '/home/harmeet/rbe500_ws/build/open_manipulator_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harmeet/rbe500_ws/build/open_manipulator_msgs -- -j16 -l16
+Invoked command in '/home/harmeet/rbe500_ws/build/open_manipulator_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harmeet/rbe500_ws/build/open_manipulator_msgs -- -j16 -l16
+Invoking command in '/home/harmeet/rbe500_ws/build/open_manipulator_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/harmeet/rbe500_ws/build/open_manipulator_msgs

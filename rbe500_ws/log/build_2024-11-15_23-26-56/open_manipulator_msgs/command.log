@@ -1,0 +1,1 @@
+Invoking command in '/home/harmeet/rbe500_ws/build/open_manipulator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harmeet/rbe500_ws/install/rbe500_example_py:/opt/ros/humble /usr/bin/cmake /home/harmeet/rbe500_ws/src/open_manipulator_msgs -DCMAKE_INSTALL_PREFIX=/home/harmeet/rbe500_ws/install/open_manipulator_msgs

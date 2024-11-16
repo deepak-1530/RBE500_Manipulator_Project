@@ -1,0 +1,4 @@
+source;share/inversekinematics_interfaces/local_setup.bash
+source;share/inversekinematics_interfaces/local_setup.dsv
+source;share/inversekinematics_interfaces/local_setup.sh
+source;share/inversekinematics_interfaces/local_setup.zsh

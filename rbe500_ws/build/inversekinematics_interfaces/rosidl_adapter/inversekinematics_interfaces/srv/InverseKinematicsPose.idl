@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from inversekinematics_interfaces/InverseKinematicsPose.srv
+// generated code does not contain a copyright notice
+
+
+module inversekinematics_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request part (desired end-effector pose)")
+    struct InverseKinematicsPose_Request {
+      double x;
+
+      double y;
+
+      double z;
+
+      double qx;
+
+      double qy;
+
+      double qz;
+
+      double qw;
+    };
+    struct InverseKinematicsPose_Response {
+      @verbatim (language="comment", text=
+        "Response part (calculated joint positions)")
+      double joint1;
+
+      double joint2;
+
+      double joint3;
+
+      double joint4;
+
+      double gripper;
+    };
+  };
+};

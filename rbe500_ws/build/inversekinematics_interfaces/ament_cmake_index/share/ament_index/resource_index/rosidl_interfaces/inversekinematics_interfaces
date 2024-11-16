@@ -1,0 +1,4 @@
+inversekinematics_interfaces/InverseKinematicsPose.srv
+rosidl_cmake/InverseKinematicsPose_Request.msg
+rosidl_cmake/InverseKinematicsPose_Response.msg
+srv/InverseKinematicsPose.idl

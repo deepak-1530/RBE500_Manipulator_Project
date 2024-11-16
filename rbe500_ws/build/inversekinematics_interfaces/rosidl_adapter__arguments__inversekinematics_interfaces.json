@@ -1,0 +1,6 @@
+{
+  "package_name": "inversekinematics_interfaces",
+  "non_idl_tuples": [
+    "/home/harmeet/rbe500_ws/src/inversekinematics_interfaces:InverseKinematicsPose.srv"
+  ]
+}

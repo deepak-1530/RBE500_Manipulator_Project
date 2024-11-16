@@ -1,0 +1,6 @@
+Invoking command in '/home/harmeet/rbe500_ws/build/cmake_modules': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/harmeet/rbe500_ws/src/open_manipulator_dependencies/cmake_modules -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/harmeet/rbe500_ws/install/cmake_modules
+Invoked command in '/home/harmeet/rbe500_ws/build/cmake_modules' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/harmeet/rbe500_ws/src/open_manipulator_dependencies/cmake_modules -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/harmeet/rbe500_ws/install/cmake_modules
+Invoking command in '/home/harmeet/rbe500_ws/build/cmake_modules': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harmeet/rbe500_ws/build/cmake_modules -- -j16 -l16
+Invoked command in '/home/harmeet/rbe500_ws/build/cmake_modules' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harmeet/rbe500_ws/build/cmake_modules -- -j16 -l16
+Invoking command in '/home/harmeet/rbe500_ws/build/cmake_modules': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/harmeet/rbe500_ws/build/cmake_modules
+Invoked command in '/home/harmeet/rbe500_ws/build/cmake_modules' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/harmeet/rbe500_ws/build/cmake_modules

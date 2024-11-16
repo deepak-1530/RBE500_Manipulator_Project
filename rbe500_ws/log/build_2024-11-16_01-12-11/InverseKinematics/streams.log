@@ -1,0 +1,31 @@
+[0.475s] Invoking command in '/home/harmeet/rbe500_ws/src/InverseKinematics': AMENT_PREFIX_PATH=/home/harmeet/rbe500_ws/install/open_manipulator_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/harmeet/rbe500_ws/install/open_manipulator_msgs LD_LIBRARY_PATH=/home/harmeet/rbe500_ws/install/open_manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/harmeet/rbe500_ws/build/InverseKinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harmeet/rbe500_ws/install/InverseKinematics/lib/python3.10/site-packages:/home/harmeet/rbe500_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/InverseKinematics build --build-base /home/harmeet/rbe500_ws/build/InverseKinematics/build install --record /home/harmeet/rbe500_ws/build/InverseKinematics/install.log --single-version-externally-managed
+[0.668s] running egg_info
+[0.668s] creating ../../build/InverseKinematics/InverseKinematics.egg-info
+[0.669s] writing ../../build/InverseKinematics/InverseKinematics.egg-info/PKG-INFO
+[0.669s] writing dependency_links to ../../build/InverseKinematics/InverseKinematics.egg-info/dependency_links.txt
+[0.669s] writing entry points to ../../build/InverseKinematics/InverseKinematics.egg-info/entry_points.txt
+[0.669s] writing requirements to ../../build/InverseKinematics/InverseKinematics.egg-info/requires.txt
+[0.669s] writing top-level names to ../../build/InverseKinematics/InverseKinematics.egg-info/top_level.txt
+[0.669s] writing manifest file '../../build/InverseKinematics/InverseKinematics.egg-info/SOURCES.txt'
+[0.671s] reading manifest file '../../build/InverseKinematics/InverseKinematics.egg-info/SOURCES.txt'
+[0.671s] writing manifest file '../../build/InverseKinematics/InverseKinematics.egg-info/SOURCES.txt'
+[0.671s] running build
+[0.671s] running build_py
+[0.672s] creating /home/harmeet/rbe500_ws/build/InverseKinematics/build
+[0.672s] creating /home/harmeet/rbe500_ws/build/InverseKinematics/build/lib
+[0.672s] creating /home/harmeet/rbe500_ws/build/InverseKinematics/build/lib/InverseKinematics
+[0.672s] copying InverseKinematics/__init__.py -> /home/harmeet/rbe500_ws/build/InverseKinematics/build/lib/InverseKinematics
+[0.672s] copying InverseKinematics/InverseKinematics.py -> /home/harmeet/rbe500_ws/build/InverseKinematics/build/lib/InverseKinematics
+[0.672s] running install
+[0.672s] running install_lib
+[0.673s] creating /home/harmeet/rbe500_ws/install/InverseKinematics/lib/python3.10/site-packages/InverseKinematics
+[0.673s] copying /home/harmeet/rbe500_ws/build/InverseKinematics/build/lib/InverseKinematics/__init__.py -> /home/harmeet/rbe500_ws/install/InverseKinematics/lib/python3.10/site-packages/InverseKinematics
+[0.673s] copying /home/harmeet/rbe500_ws/build/InverseKinematics/build/lib/InverseKinematics/InverseKinematics.py -> /home/harmeet/rbe500_ws/install/InverseKinematics/lib/python3.10/site-packages/InverseKinematics
+[0.674s] byte-compiling /home/harmeet/rbe500_ws/install/InverseKinematics/lib/python3.10/site-packages/InverseKinematics/__init__.py to __init__.cpython-310.pyc
+[0.674s] byte-compiling /home/harmeet/rbe500_ws/install/InverseKinematics/lib/python3.10/site-packages/InverseKinematics/InverseKinematics.py to InverseKinematics.cpython-310.pyc
+[0.675s] running install_egg_info
+[0.676s] Copying ../../build/InverseKinematics/InverseKinematics.egg-info to /home/harmeet/rbe500_ws/install/InverseKinematics/lib/python3.10/site-packages/InverseKinematics-0.0.0-py3.10.egg-info
+[0.677s] running install_scripts
+[0.694s] Installing InverseKinematics script to /home/harmeet/rbe500_ws/install/InverseKinematics/lib/InverseKinematics
+[0.694s] writing list of installed files to '/home/harmeet/rbe500_ws/build/InverseKinematics/install.log'
+[0.718s] Invoked command in '/home/harmeet/rbe500_ws/src/InverseKinematics' returned '0': AMENT_PREFIX_PATH=/home/harmeet/rbe500_ws/install/open_manipulator_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/harmeet/rbe500_ws/install/open_manipulator_msgs LD_LIBRARY_PATH=/home/harmeet/rbe500_ws/install/open_manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/harmeet/rbe500_ws/build/InverseKinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harmeet/rbe500_ws/install/InverseKinematics/lib/python3.10/site-packages:/home/harmeet/rbe500_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/InverseKinematics build --build-base /home/harmeet/rbe500_ws/build/InverseKinematics/build install --record /home/harmeet/rbe500_ws/build/InverseKinematics/install.log --single-version-externally-managed

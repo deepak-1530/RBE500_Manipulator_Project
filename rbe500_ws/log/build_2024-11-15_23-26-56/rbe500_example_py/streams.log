@@ -1,0 +1,32 @@
+[0.509s] Invoking command in '/home/harmeet/rbe500_ws/src/rbe500_py': PYTHONPATH=/home/harmeet/rbe500_ws/build/rbe500_example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harmeet/rbe500_ws/install/rbe500_example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rbe500_example_py build --build-base /home/harmeet/rbe500_ws/build/rbe500_example_py/build install --record /home/harmeet/rbe500_ws/build/rbe500_example_py/install.log --single-version-externally-managed install_data
+[0.728s] running egg_info
+[0.729s] creating ../../build/rbe500_example_py/rbe500_py.egg-info
+[0.729s] writing ../../build/rbe500_example_py/rbe500_py.egg-info/PKG-INFO
+[0.729s] writing dependency_links to ../../build/rbe500_example_py/rbe500_py.egg-info/dependency_links.txt
+[0.729s] writing entry points to ../../build/rbe500_example_py/rbe500_py.egg-info/entry_points.txt
+[0.729s] writing requirements to ../../build/rbe500_example_py/rbe500_py.egg-info/requires.txt
+[0.729s] writing top-level names to ../../build/rbe500_example_py/rbe500_py.egg-info/top_level.txt
+[0.729s] writing manifest file '../../build/rbe500_example_py/rbe500_py.egg-info/SOURCES.txt'
+[0.731s] reading manifest file '../../build/rbe500_example_py/rbe500_py.egg-info/SOURCES.txt'
+[0.732s] writing manifest file '../../build/rbe500_example_py/rbe500_py.egg-info/SOURCES.txt'
+[0.732s] running build
+[0.732s] running build_py
+[0.732s] creating /home/harmeet/rbe500_ws/build/rbe500_example_py/build/lib/rbe500_py
+[0.732s] copying rbe500_py/__init__.py -> /home/harmeet/rbe500_ws/build/rbe500_example_py/build/lib/rbe500_py
+[0.732s] copying rbe500_py/inverse_sol.py -> /home/harmeet/rbe500_ws/build/rbe500_example_py/build/lib/rbe500_py
+[0.732s] copying rbe500_py/example.py -> /home/harmeet/rbe500_ws/build/rbe500_example_py/build/lib/rbe500_py
+[0.732s] copying rbe500_py/basic_robot_forward.py -> /home/harmeet/rbe500_ws/build/rbe500_example_py/build/lib/rbe500_py
+[0.732s] running install
+[0.732s] running install_lib
+[0.733s] creating /home/harmeet/rbe500_ws/install/rbe500_example_py/lib/python3.10/site-packages/rbe500_py
+[0.733s] copying /home/harmeet/rbe500_ws/build/rbe500_example_py/build/lib/rbe500_py/__init__.py -> /home/harmeet/rbe500_ws/install/rbe500_example_py/lib/python3.10/site-packages/rbe500_py
+[0.733s] copying /home/harmeet/rbe500_ws/build/rbe500_example_py/build/lib/rbe500_py/inverse_sol.py -> /home/harmeet/rbe500_ws/install/rbe500_example_py/lib/python3.10/site-packages/rbe500_py
+[0.733s] copying /home/harmeet/rbe500_ws/build/rbe500_example_py/build/lib/rbe500_py/example.py -> /home/harmeet/rbe500_ws/install/rbe500_example_py/lib/python3.10/site-packages/rbe500_py
+[0.733s] copying /home/harmeet/rbe500_ws/build/rbe500_example_py/build/lib/rbe500_py/basic_robot_forward.py -> /home/harmeet/rbe500_ws/install/rbe500_example_py/lib/python3.10/site-packages/rbe500_py
+[0.734s] byte-compiling /home/harmeet/rbe500_ws/install/rbe500_example_py/lib/python3.10/site-packages/rbe500_py/__init__.py to __init__.cpython-310.pyc
+[0.734s] byte-compiling /home/harmeet/rbe500_ws/install/rbe500_example_py/lib/python3.10/site-packages/rbe500_py/inverse_sol.py to inverse_sol.cpython-310.pyc
+[0.735s] byte-compiling /home/harmeet/rbe500_ws/install/rbe500_example_py/lib/python3.10/site-packages/rbe500_py/example.py to example.cpython-310.pyc
+[0.735s] byte-compiling /home/harmeet/rbe500_ws/install/rbe500_example_py/lib/python3.10/site-packages/rbe500_py/basic_robot_forward.py to basic_robot_forward.cpython-310.pyc
+[0.736s] running install_data
+[0.736s] error: can't copy 'resource/rbe500_py': doesn't exist or not a regular file
+[0.753s] Invoked command in '/home/harmeet/rbe500_ws/src/rbe500_py' returned '1': PYTHONPATH=/home/harmeet/rbe500_ws/build/rbe500_example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harmeet/rbe500_ws/install/rbe500_example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rbe500_example_py build --build-base /home/harmeet/rbe500_ws/build/rbe500_example_py/build install --record /home/harmeet/rbe500_ws/build/rbe500_example_py/install.log --single-version-externally-managed install_data

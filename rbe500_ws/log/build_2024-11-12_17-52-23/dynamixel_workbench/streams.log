@@ -1,0 +1,41 @@
+[0.037s] Invoking command in '/home/harmeet/rbe500_ws/build/dynamixel_workbench': AMENT_PREFIX_PATH=/home/harmeet/rbe500_ws/install/dynamixel_workbench_toolbox:/home/harmeet/rbe500_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/harmeet/rbe500_ws/install/dynamixel_workbench_toolbox:/home/harmeet/rbe500_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/harmeet/rbe500_ws/install/dynamixel_workbench_toolbox/lib:/home/harmeet/rbe500_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/harmeet/rbe500_ws/src/dynamixel-workbench/dynamixel_workbench -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/harmeet/rbe500_ws/install/dynamixel_workbench
+[0.157s] -- The C compiler identification is GNU 11.4.0
+[0.260s] -- The CXX compiler identification is GNU 11.4.0
+[0.281s] -- Detecting C compiler ABI info
+[0.479s] -- Detecting C compiler ABI info - done
+[0.497s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.498s] -- Detecting C compile features
+[0.500s] -- Detecting C compile features - done
+[0.509s] -- Detecting CXX compiler ABI info
+[0.744s] -- Detecting CXX compiler ABI info - done
+[0.767s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.767s] -- Detecting CXX compile features
+[0.767s] -- Detecting CXX compile features - done
+[0.772s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.006s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.071s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.164s] -- Configuring done
+[1.166s] -- Generating done
+[1.167s] -- Build files have been written to: /home/harmeet/rbe500_ws/build/dynamixel_workbench
+[1.171s] Invoked command in '/home/harmeet/rbe500_ws/build/dynamixel_workbench' returned '0': AMENT_PREFIX_PATH=/home/harmeet/rbe500_ws/install/dynamixel_workbench_toolbox:/home/harmeet/rbe500_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/harmeet/rbe500_ws/install/dynamixel_workbench_toolbox:/home/harmeet/rbe500_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/harmeet/rbe500_ws/install/dynamixel_workbench_toolbox/lib:/home/harmeet/rbe500_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/harmeet/rbe500_ws/src/dynamixel-workbench/dynamixel_workbench -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/harmeet/rbe500_ws/install/dynamixel_workbench
+[1.172s] Invoking command in '/home/harmeet/rbe500_ws/build/dynamixel_workbench': AMENT_PREFIX_PATH=/home/harmeet/rbe500_ws/install/dynamixel_workbench_toolbox:/home/harmeet/rbe500_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/harmeet/rbe500_ws/install/dynamixel_workbench_toolbox:/home/harmeet/rbe500_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/harmeet/rbe500_ws/install/dynamixel_workbench_toolbox/lib:/home/harmeet/rbe500_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/harmeet/rbe500_ws/build/dynamixel_workbench -- -j16 -l16
+[1.198s] Invoked command in '/home/harmeet/rbe500_ws/build/dynamixel_workbench' returned '0': AMENT_PREFIX_PATH=/home/harmeet/rbe500_ws/install/dynamixel_workbench_toolbox:/home/harmeet/rbe500_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/harmeet/rbe500_ws/install/dynamixel_workbench_toolbox:/home/harmeet/rbe500_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/harmeet/rbe500_ws/install/dynamixel_workbench_toolbox/lib:/home/harmeet/rbe500_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/harmeet/rbe500_ws/build/dynamixel_workbench -- -j16 -l16
+[1.213s] Invoking command in '/home/harmeet/rbe500_ws/build/dynamixel_workbench': AMENT_PREFIX_PATH=/home/harmeet/rbe500_ws/install/dynamixel_workbench_toolbox:/home/harmeet/rbe500_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/harmeet/rbe500_ws/install/dynamixel_workbench_toolbox:/home/harmeet/rbe500_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/harmeet/rbe500_ws/install/dynamixel_workbench_toolbox/lib:/home/harmeet/rbe500_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/harmeet/rbe500_ws/build/dynamixel_workbench
+[1.217s] -- Install configuration: ""
+[1.217s] -- Execute custom install script
+[1.217s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_workbench/share/ament_index/resource_index/package_run_dependencies/dynamixel_workbench
+[1.222s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_workbench/share/ament_index/resource_index/parent_prefix_path/dynamixel_workbench
+[1.228s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_workbench/share/dynamixel_workbench/environment/ament_prefix_path.sh
+[1.234s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_workbench/share/dynamixel_workbench/environment/ament_prefix_path.dsv
+[1.240s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_workbench/share/dynamixel_workbench/environment/path.sh
+[1.246s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_workbench/share/dynamixel_workbench/environment/path.dsv
+[1.252s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_workbench/share/dynamixel_workbench/local_setup.bash
+[1.258s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_workbench/share/dynamixel_workbench/local_setup.sh
+[1.265s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_workbench/share/dynamixel_workbench/local_setup.zsh
+[1.271s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_workbench/share/dynamixel_workbench/local_setup.dsv
+[1.277s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.dsv
+[1.283s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_workbench/share/ament_index/resource_index/packages/dynamixel_workbench
+[1.288s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_workbench/share/dynamixel_workbench/cmake/dynamixel_workbenchConfig.cmake
+[1.294s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_workbench/share/dynamixel_workbench/cmake/dynamixel_workbenchConfig-version.cmake
+[1.300s] -- Symlinking: /home/harmeet/rbe500_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.xml
+[1.308s] Invoked command in '/home/harmeet/rbe500_ws/build/dynamixel_workbench' returned '0': AMENT_PREFIX_PATH=/home/harmeet/rbe500_ws/install/dynamixel_workbench_toolbox:/home/harmeet/rbe500_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/harmeet/rbe500_ws/install/dynamixel_workbench_toolbox:/home/harmeet/rbe500_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/harmeet/rbe500_ws/install/dynamixel_workbench_toolbox/lib:/home/harmeet/rbe500_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/harmeet/rbe500_ws/build/dynamixel_workbench
