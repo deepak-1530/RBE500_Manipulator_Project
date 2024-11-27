@@ -1,0 +1,7 @@
+{
+  "package_name": "velocityKinematics_interfaces",
+  "non_idl_tuples": [
+    "/root/RBE500_Manipulator_Project/ws_2/src/velocityKinematics_interfaces:srv/JointToEffector.srv",
+    "/root/RBE500_Manipulator_Project/ws_2/src/velocityKinematics_interfaces:srv/EffectorToJoint.srv"
+  ]
+}

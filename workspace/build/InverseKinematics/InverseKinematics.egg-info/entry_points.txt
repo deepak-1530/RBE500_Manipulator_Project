@@ -1,3 +1,0 @@
-[console_scripts]
-InverseKinematics = InverseKinematics.InverseKinematics:main
-

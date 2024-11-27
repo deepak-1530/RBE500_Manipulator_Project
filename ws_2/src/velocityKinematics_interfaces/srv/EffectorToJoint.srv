@@ -1,0 +1,5 @@
+float64[] effector_velocities
+
+---
+
+float64[] joint_velocities

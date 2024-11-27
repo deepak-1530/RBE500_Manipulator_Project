@@ -1,1 +1,0 @@
-/root/RBE500_Manipulator_Project/workspace/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_description/launch/open_manipulator_x_rviz.launch.py
