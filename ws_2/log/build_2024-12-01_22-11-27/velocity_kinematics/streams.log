@@ -1,0 +1,58 @@
+[0.008s] Invoking command in '/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/RBE500_Manipulator_Project/ws_2/src/velocity_kinematics -DCMAKE_INSTALL_PREFIX=/root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics
+[0.051s] -- The C compiler identification is GNU 11.4.0
+[0.098s] -- The CXX compiler identification is GNU 11.4.0
+[0.103s] -- Detecting C compiler ABI info
+[0.156s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.161s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.164s] -- Detecting CXX compiler ABI info
+[0.214s] -- Detecting CXX compiler ABI info - done
+[0.220s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.220s] -- Detecting CXX compile features
+[0.221s] -- Detecting CXX compile features - done
+[0.223s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.340s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.411s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.448s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.452s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.458s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.468s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.480s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.529s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.532s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.615s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.637s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.667s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.678s] -- Looking for pthread.h
+[0.720s] -- Looking for pthread.h - found
+[0.721s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.765s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.766s] -- Found Threads: TRUE  
+[0.845s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.904s] -- Added test 'lint_cmake' to check CMake code style
+[0.904s] -- Added test 'xmllint' to check XML markup files
+[0.905s] -- Configuring done
+[0.908s] -- Generating done
+[0.909s] -- Build files have been written to: /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics
+[0.916s] Invoked command in '/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/RBE500_Manipulator_Project/ws_2/src/velocity_kinematics -DCMAKE_INSTALL_PREFIX=/root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics
+[0.916s] Invoking command in '/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics -- -j12 -l12
+[0.940s] Invoked command in '/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics -- -j12 -l12
+[0.953s] Invoking command in '/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics
+[0.958s] -- Install configuration: ""
+[0.958s] -- Installing: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/ament_index/resource_index/package_run_dependencies/velocity_kinematics
+[0.959s] -- Installing: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/ament_index/resource_index/parent_prefix_path/velocity_kinematics
+[0.959s] -- Installing: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/environment/ament_prefix_path.sh
+[0.959s] -- Installing: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/environment/ament_prefix_path.dsv
+[0.959s] -- Installing: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/environment/path.sh
+[0.959s] -- Installing: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/environment/path.dsv
+[0.959s] -- Installing: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/local_setup.bash
+[0.959s] -- Installing: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/local_setup.sh
+[0.960s] -- Installing: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/local_setup.zsh
+[0.960s] -- Installing: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/local_setup.dsv
+[0.960s] -- Installing: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/package.dsv
+[0.960s] -- Installing: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/ament_index/resource_index/packages/velocity_kinematics
+[0.960s] -- Installing: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/cmake/velocity_kinematicsConfig.cmake
+[0.960s] -- Installing: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/cmake/velocity_kinematicsConfig-version.cmake
+[0.960s] -- Installing: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/package.xml
+[0.962s] Invoked command in '/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics

@@ -1,0 +1,15 @@
+/root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/ament_index/resource_index/package_run_dependencies/velocity_kinematics
+/root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/ament_index/resource_index/parent_prefix_path/velocity_kinematics
+/root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/environment/ament_prefix_path.sh
+/root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/environment/ament_prefix_path.dsv
+/root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/environment/path.sh
+/root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/environment/path.dsv
+/root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/local_setup.bash
+/root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/local_setup.sh
+/root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/local_setup.zsh
+/root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/local_setup.dsv
+/root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/package.dsv
+/root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/ament_index/resource_index/packages/velocity_kinematics
+/root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/cmake/velocity_kinematicsConfig.cmake
+/root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/cmake/velocity_kinematicsConfig-version.cmake
+/root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/package.xml
