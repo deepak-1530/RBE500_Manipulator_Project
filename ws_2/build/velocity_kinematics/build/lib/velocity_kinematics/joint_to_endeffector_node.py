@@ -49,7 +49,7 @@ class JointToEndEffector(Node):
         ])
 
     def joint_to_endeffector_callback(self, request, response):
-        joint_vel = np.array([[request.joint1_vel], [request.joint2_vel], [request.joint3_vel], [request.joint4_vel]])
+        joint_vel = np.array([[request.joint_vel1], [request.joint_vel2], [request.joint_vel3], [request.joint_vel4]])
         thetaList = self.measured_joint_values
         Jacobian_mat = self.calculate_jacobian(thetaList)
         endeffector_vel = Jacobian_mat @ joint_vel

@@ -24,39 +24,39 @@ static struct PyModuleDef velocity_kinematics_interfaces__module = {
 #include "rosidl_runtime_c/message_type_support_struct.h"
 #include "rosidl_runtime_c/service_type_support_struct.h"
 #include "rosidl_runtime_c/action_type_support_struct.h"
-#include "velocity_kinematics_interfaces/srv/detail/joint_to_end_effector__type_support.h"
-#include "velocity_kinematics_interfaces/srv/detail/joint_to_end_effector__struct.h"
-#include "velocity_kinematics_interfaces/srv/detail/joint_to_end_effector__functions.h"
+#include "velocity_kinematics_interfaces/srv/detail/joint_end_effector__type_support.h"
+#include "velocity_kinematics_interfaces/srv/detail/joint_end_effector__struct.h"
+#include "velocity_kinematics_interfaces/srv/detail/joint_end_effector__functions.h"
 
-static void * velocity_kinematics_interfaces__srv__joint_to_end_effector__request__create_ros_message(void)
+static void * velocity_kinematics_interfaces__srv__joint_end_effector__request__create_ros_message(void)
 {
-  return velocity_kinematics_interfaces__srv__JointToEndEffector_Request__create();
+  return velocity_kinematics_interfaces__srv__JointEndEffector_Request__create();
 }
 
-static void velocity_kinematics_interfaces__srv__joint_to_end_effector__request__destroy_ros_message(void * raw_ros_message)
+static void velocity_kinematics_interfaces__srv__joint_end_effector__request__destroy_ros_message(void * raw_ros_message)
 {
-  velocity_kinematics_interfaces__srv__JointToEndEffector_Request * ros_message = (velocity_kinematics_interfaces__srv__JointToEndEffector_Request *)raw_ros_message;
-  velocity_kinematics_interfaces__srv__JointToEndEffector_Request__destroy(ros_message);
+  velocity_kinematics_interfaces__srv__JointEndEffector_Request * ros_message = (velocity_kinematics_interfaces__srv__JointEndEffector_Request *)raw_ros_message;
+  velocity_kinematics_interfaces__srv__JointEndEffector_Request__destroy(ros_message);
 }
 
 ROSIDL_GENERATOR_C_IMPORT
-bool velocity_kinematics_interfaces__srv__joint_to_end_effector__request__convert_from_py(PyObject * _pymsg, void * ros_message);
+bool velocity_kinematics_interfaces__srv__joint_end_effector__request__convert_from_py(PyObject * _pymsg, void * ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * velocity_kinematics_interfaces__srv__joint_to_end_effector__request__convert_to_py(void * raw_ros_message);
+PyObject * velocity_kinematics_interfaces__srv__joint_end_effector__request__convert_to_py(void * raw_ros_message);
 
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_message_type_support_t *
-ROSIDL_GET_MSG_TYPE_SUPPORT(velocity_kinematics_interfaces, srv, JointToEndEffector_Request);
+ROSIDL_GET_MSG_TYPE_SUPPORT(velocity_kinematics_interfaces, srv, JointEndEffector_Request);
 
 int8_t
-_register_msg_type__srv__joint_to_end_effector__request(PyObject * pymodule)
+_register_msg_type__srv__joint_end_effector__request(PyObject * pymodule)
 {
   int8_t err;
 
   PyObject * pyobject_create_ros_message = NULL;
   pyobject_create_ros_message = PyCapsule_New(
-    (void *)&velocity_kinematics_interfaces__srv__joint_to_end_effector__request__create_ros_message,
+    (void *)&velocity_kinematics_interfaces__srv__joint_end_effector__request__create_ros_message,
     NULL, NULL);
   if (!pyobject_create_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -64,7 +64,7 @@ _register_msg_type__srv__joint_to_end_effector__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "create_ros_message_msg__srv__joint_to_end_effector__request",
+    "create_ros_message_msg__srv__joint_end_effector__request",
     pyobject_create_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -75,7 +75,7 @@ _register_msg_type__srv__joint_to_end_effector__request(PyObject * pymodule)
 
   PyObject * pyobject_destroy_ros_message = NULL;
   pyobject_destroy_ros_message = PyCapsule_New(
-    (void *)&velocity_kinematics_interfaces__srv__joint_to_end_effector__request__destroy_ros_message,
+    (void *)&velocity_kinematics_interfaces__srv__joint_end_effector__request__destroy_ros_message,
     NULL, NULL);
   if (!pyobject_destroy_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -83,7 +83,7 @@ _register_msg_type__srv__joint_to_end_effector__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "destroy_ros_message_msg__srv__joint_to_end_effector__request",
+    "destroy_ros_message_msg__srv__joint_end_effector__request",
     pyobject_destroy_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -94,7 +94,7 @@ _register_msg_type__srv__joint_to_end_effector__request(PyObject * pymodule)
 
   PyObject * pyobject_convert_from_py = NULL;
   pyobject_convert_from_py = PyCapsule_New(
-    (void *)&velocity_kinematics_interfaces__srv__joint_to_end_effector__request__convert_from_py,
+    (void *)&velocity_kinematics_interfaces__srv__joint_end_effector__request__convert_from_py,
     NULL, NULL);
   if (!pyobject_convert_from_py) {
     // previously added objects will be removed when the module is destroyed
@@ -102,7 +102,7 @@ _register_msg_type__srv__joint_to_end_effector__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_from_py_msg__srv__joint_to_end_effector__request",
+    "convert_from_py_msg__srv__joint_end_effector__request",
     pyobject_convert_from_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -113,7 +113,7 @@ _register_msg_type__srv__joint_to_end_effector__request(PyObject * pymodule)
 
   PyObject * pyobject_convert_to_py = NULL;
   pyobject_convert_to_py = PyCapsule_New(
-    (void *)&velocity_kinematics_interfaces__srv__joint_to_end_effector__request__convert_to_py,
+    (void *)&velocity_kinematics_interfaces__srv__joint_end_effector__request__convert_to_py,
     NULL, NULL);
   if (!pyobject_convert_to_py) {
     // previously added objects will be removed when the module is destroyed
@@ -121,7 +121,7 @@ _register_msg_type__srv__joint_to_end_effector__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_to_py_msg__srv__joint_to_end_effector__request",
+    "convert_to_py_msg__srv__joint_end_effector__request",
     pyobject_convert_to_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -132,7 +132,7 @@ _register_msg_type__srv__joint_to_end_effector__request(PyObject * pymodule)
 
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(velocity_kinematics_interfaces, srv, JointToEndEffector_Request),
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(velocity_kinematics_interfaces, srv, JointEndEffector_Request),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -140,7 +140,7 @@ _register_msg_type__srv__joint_to_end_effector__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_msg__srv__joint_to_end_effector__request",
+    "type_support_msg__srv__joint_end_effector__request",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -164,41 +164,41 @@ _register_msg_type__srv__joint_to_end_effector__request(PyObject * pymodule)
 // already included above
 // #include "rosidl_runtime_c/action_type_support_struct.h"
 // already included above
-// #include "velocity_kinematics_interfaces/srv/detail/joint_to_end_effector__type_support.h"
+// #include "velocity_kinematics_interfaces/srv/detail/joint_end_effector__type_support.h"
 // already included above
-// #include "velocity_kinematics_interfaces/srv/detail/joint_to_end_effector__struct.h"
+// #include "velocity_kinematics_interfaces/srv/detail/joint_end_effector__struct.h"
 // already included above
-// #include "velocity_kinematics_interfaces/srv/detail/joint_to_end_effector__functions.h"
+// #include "velocity_kinematics_interfaces/srv/detail/joint_end_effector__functions.h"
 
-static void * velocity_kinematics_interfaces__srv__joint_to_end_effector__response__create_ros_message(void)
+static void * velocity_kinematics_interfaces__srv__joint_end_effector__response__create_ros_message(void)
 {
-  return velocity_kinematics_interfaces__srv__JointToEndEffector_Response__create();
+  return velocity_kinematics_interfaces__srv__JointEndEffector_Response__create();
 }
 
-static void velocity_kinematics_interfaces__srv__joint_to_end_effector__response__destroy_ros_message(void * raw_ros_message)
+static void velocity_kinematics_interfaces__srv__joint_end_effector__response__destroy_ros_message(void * raw_ros_message)
 {
-  velocity_kinematics_interfaces__srv__JointToEndEffector_Response * ros_message = (velocity_kinematics_interfaces__srv__JointToEndEffector_Response *)raw_ros_message;
-  velocity_kinematics_interfaces__srv__JointToEndEffector_Response__destroy(ros_message);
+  velocity_kinematics_interfaces__srv__JointEndEffector_Response * ros_message = (velocity_kinematics_interfaces__srv__JointEndEffector_Response *)raw_ros_message;
+  velocity_kinematics_interfaces__srv__JointEndEffector_Response__destroy(ros_message);
 }
 
 ROSIDL_GENERATOR_C_IMPORT
-bool velocity_kinematics_interfaces__srv__joint_to_end_effector__response__convert_from_py(PyObject * _pymsg, void * ros_message);
+bool velocity_kinematics_interfaces__srv__joint_end_effector__response__convert_from_py(PyObject * _pymsg, void * ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * velocity_kinematics_interfaces__srv__joint_to_end_effector__response__convert_to_py(void * raw_ros_message);
+PyObject * velocity_kinematics_interfaces__srv__joint_end_effector__response__convert_to_py(void * raw_ros_message);
 
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_message_type_support_t *
-ROSIDL_GET_MSG_TYPE_SUPPORT(velocity_kinematics_interfaces, srv, JointToEndEffector_Response);
+ROSIDL_GET_MSG_TYPE_SUPPORT(velocity_kinematics_interfaces, srv, JointEndEffector_Response);
 
 int8_t
-_register_msg_type__srv__joint_to_end_effector__response(PyObject * pymodule)
+_register_msg_type__srv__joint_end_effector__response(PyObject * pymodule)
 {
   int8_t err;
 
   PyObject * pyobject_create_ros_message = NULL;
   pyobject_create_ros_message = PyCapsule_New(
-    (void *)&velocity_kinematics_interfaces__srv__joint_to_end_effector__response__create_ros_message,
+    (void *)&velocity_kinematics_interfaces__srv__joint_end_effector__response__create_ros_message,
     NULL, NULL);
   if (!pyobject_create_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -206,7 +206,7 @@ _register_msg_type__srv__joint_to_end_effector__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "create_ros_message_msg__srv__joint_to_end_effector__response",
+    "create_ros_message_msg__srv__joint_end_effector__response",
     pyobject_create_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -217,7 +217,7 @@ _register_msg_type__srv__joint_to_end_effector__response(PyObject * pymodule)
 
   PyObject * pyobject_destroy_ros_message = NULL;
   pyobject_destroy_ros_message = PyCapsule_New(
-    (void *)&velocity_kinematics_interfaces__srv__joint_to_end_effector__response__destroy_ros_message,
+    (void *)&velocity_kinematics_interfaces__srv__joint_end_effector__response__destroy_ros_message,
     NULL, NULL);
   if (!pyobject_destroy_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -225,7 +225,7 @@ _register_msg_type__srv__joint_to_end_effector__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "destroy_ros_message_msg__srv__joint_to_end_effector__response",
+    "destroy_ros_message_msg__srv__joint_end_effector__response",
     pyobject_destroy_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -236,7 +236,7 @@ _register_msg_type__srv__joint_to_end_effector__response(PyObject * pymodule)
 
   PyObject * pyobject_convert_from_py = NULL;
   pyobject_convert_from_py = PyCapsule_New(
-    (void *)&velocity_kinematics_interfaces__srv__joint_to_end_effector__response__convert_from_py,
+    (void *)&velocity_kinematics_interfaces__srv__joint_end_effector__response__convert_from_py,
     NULL, NULL);
   if (!pyobject_convert_from_py) {
     // previously added objects will be removed when the module is destroyed
@@ -244,7 +244,7 @@ _register_msg_type__srv__joint_to_end_effector__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_from_py_msg__srv__joint_to_end_effector__response",
+    "convert_from_py_msg__srv__joint_end_effector__response",
     pyobject_convert_from_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -255,7 +255,7 @@ _register_msg_type__srv__joint_to_end_effector__response(PyObject * pymodule)
 
   PyObject * pyobject_convert_to_py = NULL;
   pyobject_convert_to_py = PyCapsule_New(
-    (void *)&velocity_kinematics_interfaces__srv__joint_to_end_effector__response__convert_to_py,
+    (void *)&velocity_kinematics_interfaces__srv__joint_end_effector__response__convert_to_py,
     NULL, NULL);
   if (!pyobject_convert_to_py) {
     // previously added objects will be removed when the module is destroyed
@@ -263,7 +263,7 @@ _register_msg_type__srv__joint_to_end_effector__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_to_py_msg__srv__joint_to_end_effector__response",
+    "convert_to_py_msg__srv__joint_end_effector__response",
     pyobject_convert_to_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -274,7 +274,7 @@ _register_msg_type__srv__joint_to_end_effector__response(PyObject * pymodule)
 
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(velocity_kinematics_interfaces, srv, JointToEndEffector_Response),
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(velocity_kinematics_interfaces, srv, JointEndEffector_Response),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -282,7 +282,7 @@ _register_msg_type__srv__joint_to_end_effector__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_msg__srv__joint_to_end_effector__response",
+    "type_support_msg__srv__joint_end_effector__response",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -295,15 +295,15 @@ _register_msg_type__srv__joint_to_end_effector__response(PyObject * pymodule)
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_service_type_support_t *
-ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, velocity_kinematics_interfaces, srv, JointToEndEffector)();
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, velocity_kinematics_interfaces, srv, JointEndEffector)();
 
 int8_t
-_register_srv_type__srv__joint_to_end_effector(PyObject * pymodule)
+_register_srv_type__srv__joint_end_effector(PyObject * pymodule)
 {
   int8_t err;
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, velocity_kinematics_interfaces, srv, JointToEndEffector)(),
+    (void *)ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, velocity_kinematics_interfaces, srv, JointEndEffector)(),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -311,7 +311,7 @@ _register_srv_type__srv__joint_to_end_effector(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_srv__srv__joint_to_end_effector",
+    "type_support_srv__srv__joint_end_effector",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -334,39 +334,39 @@ _register_srv_type__srv__joint_to_end_effector(PyObject * pymodule)
 // #include "rosidl_runtime_c/service_type_support_struct.h"
 // already included above
 // #include "rosidl_runtime_c/action_type_support_struct.h"
-#include "velocity_kinematics_interfaces/srv/detail/end_effector_to_joint__type_support.h"
-#include "velocity_kinematics_interfaces/srv/detail/end_effector_to_joint__struct.h"
-#include "velocity_kinematics_interfaces/srv/detail/end_effector_to_joint__functions.h"
+#include "velocity_kinematics_interfaces/srv/detail/end_effector_joint__type_support.h"
+#include "velocity_kinematics_interfaces/srv/detail/end_effector_joint__struct.h"
+#include "velocity_kinematics_interfaces/srv/detail/end_effector_joint__functions.h"
 
-static void * velocity_kinematics_interfaces__srv__end_effector_to_joint__request__create_ros_message(void)
+static void * velocity_kinematics_interfaces__srv__end_effector_joint__request__create_ros_message(void)
 {
-  return velocity_kinematics_interfaces__srv__EndEffectorToJoint_Request__create();
+  return velocity_kinematics_interfaces__srv__EndEffectorJoint_Request__create();
 }
 
-static void velocity_kinematics_interfaces__srv__end_effector_to_joint__request__destroy_ros_message(void * raw_ros_message)
+static void velocity_kinematics_interfaces__srv__end_effector_joint__request__destroy_ros_message(void * raw_ros_message)
 {
-  velocity_kinematics_interfaces__srv__EndEffectorToJoint_Request * ros_message = (velocity_kinematics_interfaces__srv__EndEffectorToJoint_Request *)raw_ros_message;
-  velocity_kinematics_interfaces__srv__EndEffectorToJoint_Request__destroy(ros_message);
+  velocity_kinematics_interfaces__srv__EndEffectorJoint_Request * ros_message = (velocity_kinematics_interfaces__srv__EndEffectorJoint_Request *)raw_ros_message;
+  velocity_kinematics_interfaces__srv__EndEffectorJoint_Request__destroy(ros_message);
 }
 
 ROSIDL_GENERATOR_C_IMPORT
-bool velocity_kinematics_interfaces__srv__end_effector_to_joint__request__convert_from_py(PyObject * _pymsg, void * ros_message);
+bool velocity_kinematics_interfaces__srv__end_effector_joint__request__convert_from_py(PyObject * _pymsg, void * ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * velocity_kinematics_interfaces__srv__end_effector_to_joint__request__convert_to_py(void * raw_ros_message);
+PyObject * velocity_kinematics_interfaces__srv__end_effector_joint__request__convert_to_py(void * raw_ros_message);
 
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_message_type_support_t *
-ROSIDL_GET_MSG_TYPE_SUPPORT(velocity_kinematics_interfaces, srv, EndEffectorToJoint_Request);
+ROSIDL_GET_MSG_TYPE_SUPPORT(velocity_kinematics_interfaces, srv, EndEffectorJoint_Request);
 
 int8_t
-_register_msg_type__srv__end_effector_to_joint__request(PyObject * pymodule)
+_register_msg_type__srv__end_effector_joint__request(PyObject * pymodule)
 {
   int8_t err;
 
   PyObject * pyobject_create_ros_message = NULL;
   pyobject_create_ros_message = PyCapsule_New(
-    (void *)&velocity_kinematics_interfaces__srv__end_effector_to_joint__request__create_ros_message,
+    (void *)&velocity_kinematics_interfaces__srv__end_effector_joint__request__create_ros_message,
     NULL, NULL);
   if (!pyobject_create_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -374,7 +374,7 @@ _register_msg_type__srv__end_effector_to_joint__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "create_ros_message_msg__srv__end_effector_to_joint__request",
+    "create_ros_message_msg__srv__end_effector_joint__request",
     pyobject_create_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -385,7 +385,7 @@ _register_msg_type__srv__end_effector_to_joint__request(PyObject * pymodule)
 
   PyObject * pyobject_destroy_ros_message = NULL;
   pyobject_destroy_ros_message = PyCapsule_New(
-    (void *)&velocity_kinematics_interfaces__srv__end_effector_to_joint__request__destroy_ros_message,
+    (void *)&velocity_kinematics_interfaces__srv__end_effector_joint__request__destroy_ros_message,
     NULL, NULL);
   if (!pyobject_destroy_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -393,7 +393,7 @@ _register_msg_type__srv__end_effector_to_joint__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "destroy_ros_message_msg__srv__end_effector_to_joint__request",
+    "destroy_ros_message_msg__srv__end_effector_joint__request",
     pyobject_destroy_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -404,7 +404,7 @@ _register_msg_type__srv__end_effector_to_joint__request(PyObject * pymodule)
 
   PyObject * pyobject_convert_from_py = NULL;
   pyobject_convert_from_py = PyCapsule_New(
-    (void *)&velocity_kinematics_interfaces__srv__end_effector_to_joint__request__convert_from_py,
+    (void *)&velocity_kinematics_interfaces__srv__end_effector_joint__request__convert_from_py,
     NULL, NULL);
   if (!pyobject_convert_from_py) {
     // previously added objects will be removed when the module is destroyed
@@ -412,7 +412,7 @@ _register_msg_type__srv__end_effector_to_joint__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_from_py_msg__srv__end_effector_to_joint__request",
+    "convert_from_py_msg__srv__end_effector_joint__request",
     pyobject_convert_from_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -423,7 +423,7 @@ _register_msg_type__srv__end_effector_to_joint__request(PyObject * pymodule)
 
   PyObject * pyobject_convert_to_py = NULL;
   pyobject_convert_to_py = PyCapsule_New(
-    (void *)&velocity_kinematics_interfaces__srv__end_effector_to_joint__request__convert_to_py,
+    (void *)&velocity_kinematics_interfaces__srv__end_effector_joint__request__convert_to_py,
     NULL, NULL);
   if (!pyobject_convert_to_py) {
     // previously added objects will be removed when the module is destroyed
@@ -431,7 +431,7 @@ _register_msg_type__srv__end_effector_to_joint__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_to_py_msg__srv__end_effector_to_joint__request",
+    "convert_to_py_msg__srv__end_effector_joint__request",
     pyobject_convert_to_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -442,7 +442,7 @@ _register_msg_type__srv__end_effector_to_joint__request(PyObject * pymodule)
 
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(velocity_kinematics_interfaces, srv, EndEffectorToJoint_Request),
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(velocity_kinematics_interfaces, srv, EndEffectorJoint_Request),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -450,7 +450,7 @@ _register_msg_type__srv__end_effector_to_joint__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_msg__srv__end_effector_to_joint__request",
+    "type_support_msg__srv__end_effector_joint__request",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -474,41 +474,41 @@ _register_msg_type__srv__end_effector_to_joint__request(PyObject * pymodule)
 // already included above
 // #include "rosidl_runtime_c/action_type_support_struct.h"
 // already included above
-// #include "velocity_kinematics_interfaces/srv/detail/end_effector_to_joint__type_support.h"
+// #include "velocity_kinematics_interfaces/srv/detail/end_effector_joint__type_support.h"
 // already included above
-// #include "velocity_kinematics_interfaces/srv/detail/end_effector_to_joint__struct.h"
+// #include "velocity_kinematics_interfaces/srv/detail/end_effector_joint__struct.h"
 // already included above
-// #include "velocity_kinematics_interfaces/srv/detail/end_effector_to_joint__functions.h"
+// #include "velocity_kinematics_interfaces/srv/detail/end_effector_joint__functions.h"
 
-static void * velocity_kinematics_interfaces__srv__end_effector_to_joint__response__create_ros_message(void)
+static void * velocity_kinematics_interfaces__srv__end_effector_joint__response__create_ros_message(void)
 {
-  return velocity_kinematics_interfaces__srv__EndEffectorToJoint_Response__create();
+  return velocity_kinematics_interfaces__srv__EndEffectorJoint_Response__create();
 }
 
-static void velocity_kinematics_interfaces__srv__end_effector_to_joint__response__destroy_ros_message(void * raw_ros_message)
+static void velocity_kinematics_interfaces__srv__end_effector_joint__response__destroy_ros_message(void * raw_ros_message)
 {
-  velocity_kinematics_interfaces__srv__EndEffectorToJoint_Response * ros_message = (velocity_kinematics_interfaces__srv__EndEffectorToJoint_Response *)raw_ros_message;
-  velocity_kinematics_interfaces__srv__EndEffectorToJoint_Response__destroy(ros_message);
+  velocity_kinematics_interfaces__srv__EndEffectorJoint_Response * ros_message = (velocity_kinematics_interfaces__srv__EndEffectorJoint_Response *)raw_ros_message;
+  velocity_kinematics_interfaces__srv__EndEffectorJoint_Response__destroy(ros_message);
 }
 
 ROSIDL_GENERATOR_C_IMPORT
-bool velocity_kinematics_interfaces__srv__end_effector_to_joint__response__convert_from_py(PyObject * _pymsg, void * ros_message);
+bool velocity_kinematics_interfaces__srv__end_effector_joint__response__convert_from_py(PyObject * _pymsg, void * ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * velocity_kinematics_interfaces__srv__end_effector_to_joint__response__convert_to_py(void * raw_ros_message);
+PyObject * velocity_kinematics_interfaces__srv__end_effector_joint__response__convert_to_py(void * raw_ros_message);
 
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_message_type_support_t *
-ROSIDL_GET_MSG_TYPE_SUPPORT(velocity_kinematics_interfaces, srv, EndEffectorToJoint_Response);
+ROSIDL_GET_MSG_TYPE_SUPPORT(velocity_kinematics_interfaces, srv, EndEffectorJoint_Response);
 
 int8_t
-_register_msg_type__srv__end_effector_to_joint__response(PyObject * pymodule)
+_register_msg_type__srv__end_effector_joint__response(PyObject * pymodule)
 {
   int8_t err;
 
   PyObject * pyobject_create_ros_message = NULL;
   pyobject_create_ros_message = PyCapsule_New(
-    (void *)&velocity_kinematics_interfaces__srv__end_effector_to_joint__response__create_ros_message,
+    (void *)&velocity_kinematics_interfaces__srv__end_effector_joint__response__create_ros_message,
     NULL, NULL);
   if (!pyobject_create_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -516,7 +516,7 @@ _register_msg_type__srv__end_effector_to_joint__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "create_ros_message_msg__srv__end_effector_to_joint__response",
+    "create_ros_message_msg__srv__end_effector_joint__response",
     pyobject_create_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -527,7 +527,7 @@ _register_msg_type__srv__end_effector_to_joint__response(PyObject * pymodule)
 
   PyObject * pyobject_destroy_ros_message = NULL;
   pyobject_destroy_ros_message = PyCapsule_New(
-    (void *)&velocity_kinematics_interfaces__srv__end_effector_to_joint__response__destroy_ros_message,
+    (void *)&velocity_kinematics_interfaces__srv__end_effector_joint__response__destroy_ros_message,
     NULL, NULL);
   if (!pyobject_destroy_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -535,7 +535,7 @@ _register_msg_type__srv__end_effector_to_joint__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "destroy_ros_message_msg__srv__end_effector_to_joint__response",
+    "destroy_ros_message_msg__srv__end_effector_joint__response",
     pyobject_destroy_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -546,7 +546,7 @@ _register_msg_type__srv__end_effector_to_joint__response(PyObject * pymodule)
 
   PyObject * pyobject_convert_from_py = NULL;
   pyobject_convert_from_py = PyCapsule_New(
-    (void *)&velocity_kinematics_interfaces__srv__end_effector_to_joint__response__convert_from_py,
+    (void *)&velocity_kinematics_interfaces__srv__end_effector_joint__response__convert_from_py,
     NULL, NULL);
   if (!pyobject_convert_from_py) {
     // previously added objects will be removed when the module is destroyed
@@ -554,7 +554,7 @@ _register_msg_type__srv__end_effector_to_joint__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_from_py_msg__srv__end_effector_to_joint__response",
+    "convert_from_py_msg__srv__end_effector_joint__response",
     pyobject_convert_from_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -565,7 +565,7 @@ _register_msg_type__srv__end_effector_to_joint__response(PyObject * pymodule)
 
   PyObject * pyobject_convert_to_py = NULL;
   pyobject_convert_to_py = PyCapsule_New(
-    (void *)&velocity_kinematics_interfaces__srv__end_effector_to_joint__response__convert_to_py,
+    (void *)&velocity_kinematics_interfaces__srv__end_effector_joint__response__convert_to_py,
     NULL, NULL);
   if (!pyobject_convert_to_py) {
     // previously added objects will be removed when the module is destroyed
@@ -573,7 +573,7 @@ _register_msg_type__srv__end_effector_to_joint__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_to_py_msg__srv__end_effector_to_joint__response",
+    "convert_to_py_msg__srv__end_effector_joint__response",
     pyobject_convert_to_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -584,7 +584,7 @@ _register_msg_type__srv__end_effector_to_joint__response(PyObject * pymodule)
 
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(velocity_kinematics_interfaces, srv, EndEffectorToJoint_Response),
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(velocity_kinematics_interfaces, srv, EndEffectorJoint_Response),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -592,7 +592,7 @@ _register_msg_type__srv__end_effector_to_joint__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_msg__srv__end_effector_to_joint__response",
+    "type_support_msg__srv__end_effector_joint__response",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -605,15 +605,15 @@ _register_msg_type__srv__end_effector_to_joint__response(PyObject * pymodule)
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_service_type_support_t *
-ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, velocity_kinematics_interfaces, srv, EndEffectorToJoint)();
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, velocity_kinematics_interfaces, srv, EndEffectorJoint)();
 
 int8_t
-_register_srv_type__srv__end_effector_to_joint(PyObject * pymodule)
+_register_srv_type__srv__end_effector_joint(PyObject * pymodule)
 {
   int8_t err;
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, velocity_kinematics_interfaces, srv, EndEffectorToJoint)(),
+    (void *)ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, velocity_kinematics_interfaces, srv, EndEffectorJoint)(),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -621,7 +621,7 @@ _register_srv_type__srv__end_effector_to_joint(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_srv__srv__end_effector_to_joint",
+    "type_support_srv__srv__end_effector_joint",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -642,37 +642,37 @@ PyInit_velocity_kinematics_interfaces_s__rosidl_typesupport_introspection_c(void
   }
   int8_t err;
 
-  err = _register_msg_type__srv__joint_to_end_effector__request(pymodule);
+  err = _register_msg_type__srv__joint_end_effector__request(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;
   }
 
-  err = _register_msg_type__srv__joint_to_end_effector__response(pymodule);
+  err = _register_msg_type__srv__joint_end_effector__response(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;
   }
 
-  err = _register_srv_type__srv__joint_to_end_effector(pymodule);
+  err = _register_srv_type__srv__joint_end_effector(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;
   }
 
-  err = _register_msg_type__srv__end_effector_to_joint__request(pymodule);
+  err = _register_msg_type__srv__end_effector_joint__request(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;
   }
 
-  err = _register_msg_type__srv__end_effector_to_joint__response(pymodule);
+  err = _register_msg_type__srv__end_effector_joint__response(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;
   }
 
-  err = _register_srv_type__srv__end_effector_to_joint(pymodule);
+  err = _register_srv_type__srv__end_effector_joint(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;

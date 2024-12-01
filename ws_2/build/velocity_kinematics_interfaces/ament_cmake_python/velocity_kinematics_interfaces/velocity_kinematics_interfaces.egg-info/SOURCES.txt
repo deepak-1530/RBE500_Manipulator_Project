@@ -6,6 +6,8 @@ velocity_kinematics_interfaces.egg-info/dependency_links.txt
 velocity_kinematics_interfaces.egg-info/top_level.txt
 velocity_kinematics_interfaces/srv/__init__.py
 velocity_kinematics_interfaces/srv/_effector_to_joint.py
+velocity_kinematics_interfaces/srv/_end_effector_joint.py
 velocity_kinematics_interfaces/srv/_end_effector_to_joint.py
+velocity_kinematics_interfaces/srv/_joint_end_effector.py
 velocity_kinematics_interfaces/srv/_joint_to_effector.py
 velocity_kinematics_interfaces/srv/_joint_to_end_effector.py
