@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from velocity_kinematics_interfaces/srv/JointEndEffector.srv
+// generated code does not contain a copyright notice
+
+
+module velocity_kinematics_interfaces {
+  module srv {
+    struct JointEndEffector_Request {
+      float joint_vel1;
+
+      float joint_vel2;
+
+      float joint_vel3;
+
+      float joint_vel4;
+    };
+    struct JointEndEffector_Response {
+      float vx;
+
+      float vy;
+
+      float vz;
+
+      float wx;
+
+      float wy;
+
+      float wz;
+    };
+  };
+};

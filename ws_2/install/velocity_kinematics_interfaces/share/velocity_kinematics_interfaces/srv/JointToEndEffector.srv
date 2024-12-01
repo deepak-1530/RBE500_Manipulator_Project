@@ -1,0 +1,11 @@
+float32 joint_vel1
+float32 joint_vel2
+float32 joint_vel3
+float32 joint_vel4
+---
+float32 vx
+float32 vy
+float32 vz
+float32 wx
+float32 wy
+float32 wz

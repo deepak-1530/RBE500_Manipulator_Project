@@ -242,20 +242,18 @@ CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c__pyext.dir/rosid
   /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
-  rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_to_effector__type_support.h \
+  rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_to_end_effector__type_support.h \
   rosidl_generator_c/velocity_kinematics_interfaces/msg/rosidl_generator_c__visibility_control.h \
-  rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_to_effector__struct.h \
-  rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_to_effector__functions.h \
-  rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/effector_to_joint__type_support.h \
-  rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/effector_to_joint__struct.h \
-  rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/effector_to_joint__functions.h
+  rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_to_end_effector__struct.h \
+  rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_to_end_effector__functions.h \
+  rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/end_effector_to_joint__type_support.h \
+  rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/end_effector_to_joint__struct.h \
+  rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/end_effector_to_joint__functions.h
 
 
-rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/effector_to_joint__functions.h:
+rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/end_effector_to_joint__type_support.h:
 
-rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_to_effector__struct.h:
-
-rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_to_effector__type_support.h:
+rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_to_end_effector__functions.h:
 
 /usr/include/python3.10/fileutils.h:
 
@@ -321,6 +319,8 @@ rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_to_effector__
 
 /usr/include/python3.10/code.h:
 
+rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_to_end_effector__type_support.h:
+
 /usr/include/python3.10/pycapsule.h:
 
 /usr/include/python3.10/cpython/fileobject.h:
@@ -344,8 +344,6 @@ rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_to_effector__
 /usr/include/python3.10/cpython/pyfpe.h:
 
 /usr/include/python3.10/rangeobject.h:
-
-rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/effector_to_joint__struct.h:
 
 /usr/include/python3.10/complexobject.h:
 
@@ -419,6 +417,8 @@ rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/effector_to_joint__
 
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
+rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/end_effector_to_joint__struct.h:
+
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
@@ -426,8 +426,6 @@ rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/effector_to_joint__
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/effector_to_joint__type_support.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
@@ -456,6 +454,8 @@ rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/effector_to_joint__
 /usr/include/string.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/end_effector_to_joint__functions.h:
 
 /usr/include/python3.10/longintrepr.h:
 
@@ -504,8 +504,6 @@ rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/effector_to_joint__
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
 /usr/include/python3.10/pymacconfig.h:
-
-rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_to_effector__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
@@ -566,6 +564,8 @@ rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_to_effector__
 /usr/include/python3.10/tupleobject.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+
+rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_to_end_effector__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 

@@ -1,0 +1,20 @@
+[0.012s] Invoking command in '/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics -- -j12 -l12
+[0.102s] Invoked command in '/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics -- -j12 -l12
+[0.127s] Invoking command in '/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics
+[0.134s] -- Install configuration: ""
+[0.134s] -- Up-to-date: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/ament_index/resource_index/package_run_dependencies/velocity_kinematics
+[0.134s] -- Up-to-date: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/ament_index/resource_index/parent_prefix_path/velocity_kinematics
+[0.134s] -- Up-to-date: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/environment/ament_prefix_path.sh
+[0.134s] -- Up-to-date: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/environment/ament_prefix_path.dsv
+[0.134s] -- Up-to-date: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/environment/path.sh
+[0.134s] -- Up-to-date: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/environment/path.dsv
+[0.135s] -- Up-to-date: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/local_setup.bash
+[0.135s] -- Up-to-date: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/local_setup.sh
+[0.135s] -- Up-to-date: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/local_setup.zsh
+[0.135s] -- Up-to-date: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/local_setup.dsv
+[0.135s] -- Installing: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/package.dsv
+[0.135s] -- Up-to-date: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/ament_index/resource_index/packages/velocity_kinematics
+[0.135s] -- Up-to-date: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/cmake/velocity_kinematicsConfig.cmake
+[0.135s] -- Up-to-date: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/cmake/velocity_kinematicsConfig-version.cmake
+[0.135s] -- Up-to-date: /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/share/velocity_kinematics/package.xml
+[0.137s] Invoked command in '/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics

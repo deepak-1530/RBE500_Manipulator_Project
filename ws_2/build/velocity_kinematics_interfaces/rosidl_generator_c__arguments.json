@@ -3,8 +3,8 @@
   "output_dir": "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_generator_c/velocity_kinematics_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces:srv/JointToEffector.idl",
-    "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces:srv/EffectorToJoint.idl"
+    "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces:srv/JointEndEffector.idl",
+    "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces:srv/EndEffectorJoint.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -20,7 +20,7 @@
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces/srv/JointToEffector.idl",
-    "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces/srv/EffectorToJoint.idl"
+    "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces/srv/JointEndEffector.idl",
+    "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces/srv/EndEffectorJoint.idl"
   ]
 }

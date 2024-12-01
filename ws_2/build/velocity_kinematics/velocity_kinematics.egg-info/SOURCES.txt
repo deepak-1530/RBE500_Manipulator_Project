@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/velocity_kinematics/velocity_kinematics.egg-info/PKG-INFO
+../../build/velocity_kinematics/velocity_kinematics.egg-info/SOURCES.txt
+../../build/velocity_kinematics/velocity_kinematics.egg-info/dependency_links.txt
+../../build/velocity_kinematics/velocity_kinematics.egg-info/entry_points.txt
+../../build/velocity_kinematics/velocity_kinematics.egg-info/requires.txt
+../../build/velocity_kinematics/velocity_kinematics.egg-info/top_level.txt
+../../build/velocity_kinematics/velocity_kinematics.egg-info/zip-safe
+resource/velocity_kinematics
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+velocity_kinematics/__init__.py
+velocity_kinematics/endeffector_to_joint_node.py
+velocity_kinematics/joint_to_endeffector_node.py

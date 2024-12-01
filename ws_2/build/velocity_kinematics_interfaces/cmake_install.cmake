@@ -356,35 +356,35 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velocity_kinematics_interfaces/srv" TYPE FILE FILES "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces/srv/JointToEffector.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velocity_kinematics_interfaces/srv" TYPE FILE FILES "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces/srv/JointEndEffector.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velocity_kinematics_interfaces/srv" TYPE FILE FILES "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces/srv/EffectorToJoint.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velocity_kinematics_interfaces/srv" TYPE FILE FILES "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces/srv/EndEffectorJoint.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velocity_kinematics_interfaces/srv" TYPE FILE FILES "/root/RBE500_Manipulator_Project/ws_2/src/velocity_kinematics_interfaces/srv/JointToEffector.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velocity_kinematics_interfaces/srv" TYPE FILE FILES "/root/RBE500_Manipulator_Project/ws_2/src/velocity_kinematics_interfaces/srv/JointEndEffector.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velocity_kinematics_interfaces/srv" TYPE FILE FILES "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_cmake/srv/JointToEffector_Request.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velocity_kinematics_interfaces/srv" TYPE FILE FILES "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_cmake/srv/JointEndEffector_Request.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velocity_kinematics_interfaces/srv" TYPE FILE FILES "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_cmake/srv/JointToEffector_Response.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velocity_kinematics_interfaces/srv" TYPE FILE FILES "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_cmake/srv/JointEndEffector_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velocity_kinematics_interfaces/srv" TYPE FILE FILES "/root/RBE500_Manipulator_Project/ws_2/src/velocity_kinematics_interfaces/srv/EffectorToJoint.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velocity_kinematics_interfaces/srv" TYPE FILE FILES "/root/RBE500_Manipulator_Project/ws_2/src/velocity_kinematics_interfaces/srv/EndEffectorJoint.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velocity_kinematics_interfaces/srv" TYPE FILE FILES "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_cmake/srv/EffectorToJoint_Request.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velocity_kinematics_interfaces/srv" TYPE FILE FILES "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_cmake/srv/EndEffectorJoint_Request.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velocity_kinematics_interfaces/srv" TYPE FILE FILES "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_cmake/srv/EffectorToJoint_Response.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velocity_kinematics_interfaces/srv" TYPE FILE FILES "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_cmake/srv/EndEffectorJoint_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

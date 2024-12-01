@@ -1,8 +1,8 @@
-srv/EffectorToJoint.idl
-srv/EffectorToJoint.srv
-srv/EffectorToJoint_Request.msg
-srv/EffectorToJoint_Response.msg
-srv/JointToEffector.idl
-srv/JointToEffector.srv
-srv/JointToEffector_Request.msg
-srv/JointToEffector_Response.msg
+srv/EndEffectorJoint.idl
+srv/EndEffectorJoint.srv
+srv/EndEffectorJoint_Request.msg
+srv/EndEffectorJoint_Response.msg
+srv/JointEndEffector.idl
+srv/JointEndEffector.srv
+srv/JointEndEffector_Request.msg
+srv/JointEndEffector_Response.msg

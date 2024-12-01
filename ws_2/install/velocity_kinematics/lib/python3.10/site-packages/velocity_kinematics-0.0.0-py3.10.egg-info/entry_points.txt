@@ -1,0 +1,4 @@
+[console_scripts]
+endeffector_to_joint_velocity_service = velocity_kinematics.endeffector_to_joint_node:main
+joint_to_endeffector_velocity_service = velocity_kinematics.joint_to_endeffector_node:main
+

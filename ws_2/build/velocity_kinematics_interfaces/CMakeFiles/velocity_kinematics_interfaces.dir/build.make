@@ -66,12 +66,12 @@ include CMakeFiles/velocity_kinematics_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/velocity_kinematics_interfaces.dir/progress.make
 
-CMakeFiles/velocity_kinematics_interfaces: /root/RBE500_Manipulator_Project/ws_2/src/velocity_kinematics_interfaces/srv/JointToEffector.srv
-CMakeFiles/velocity_kinematics_interfaces: rosidl_cmake/srv/JointToEffector_Request.msg
-CMakeFiles/velocity_kinematics_interfaces: rosidl_cmake/srv/JointToEffector_Response.msg
-CMakeFiles/velocity_kinematics_interfaces: /root/RBE500_Manipulator_Project/ws_2/src/velocity_kinematics_interfaces/srv/EffectorToJoint.srv
-CMakeFiles/velocity_kinematics_interfaces: rosidl_cmake/srv/EffectorToJoint_Request.msg
-CMakeFiles/velocity_kinematics_interfaces: rosidl_cmake/srv/EffectorToJoint_Response.msg
+CMakeFiles/velocity_kinematics_interfaces: /root/RBE500_Manipulator_Project/ws_2/src/velocity_kinematics_interfaces/srv/JointEndEffector.srv
+CMakeFiles/velocity_kinematics_interfaces: rosidl_cmake/srv/JointEndEffector_Request.msg
+CMakeFiles/velocity_kinematics_interfaces: rosidl_cmake/srv/JointEndEffector_Response.msg
+CMakeFiles/velocity_kinematics_interfaces: /root/RBE500_Manipulator_Project/ws_2/src/velocity_kinematics_interfaces/srv/EndEffectorJoint.srv
+CMakeFiles/velocity_kinematics_interfaces: rosidl_cmake/srv/EndEffectorJoint_Request.msg
+CMakeFiles/velocity_kinematics_interfaces: rosidl_cmake/srv/EndEffectorJoint_Response.msg
 
 velocity_kinematics_interfaces: CMakeFiles/velocity_kinematics_interfaces
 velocity_kinematics_interfaces: CMakeFiles/velocity_kinematics_interfaces.dir/build.make

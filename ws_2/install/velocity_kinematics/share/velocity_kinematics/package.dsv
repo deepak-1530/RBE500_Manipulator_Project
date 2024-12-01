@@ -1,8 +1,9 @@
 source;share/velocity_kinematics/hook/cmake_prefix_path.ps1
 source;share/velocity_kinematics/hook/cmake_prefix_path.dsv
 source;share/velocity_kinematics/hook/cmake_prefix_path.sh
-source;share/velocity_kinematics/local_setup.bash
-source;share/velocity_kinematics/local_setup.dsv
-source;share/velocity_kinematics/local_setup.ps1
-source;share/velocity_kinematics/local_setup.sh
-source;share/velocity_kinematics/local_setup.zsh
+source;share/velocity_kinematics/hook/pythonpath.ps1
+source;share/velocity_kinematics/hook/pythonpath.dsv
+source;share/velocity_kinematics/hook/pythonpath.sh
+source;share/velocity_kinematics/hook/ament_prefix_path.ps1
+source;share/velocity_kinematics/hook/ament_prefix_path.dsv
+source;share/velocity_kinematics/hook/ament_prefix_path.sh

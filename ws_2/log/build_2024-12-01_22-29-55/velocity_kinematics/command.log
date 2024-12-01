@@ -1,0 +1,4 @@
+Invoking command in '/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics -- -j12 -l12
+Invoked command in '/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics -- -j12 -l12
+Invoking command in '/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics
+Invoked command in '/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics
