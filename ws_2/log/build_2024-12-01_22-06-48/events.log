@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.000575] (velocityKinematics_interfaces) JobQueued: {'identifier': 'velocityKinematics_interfaces', 'dependencies': OrderedDict()}
+[0.000998] (velocityKinematics_interfaces) JobStarted: {'identifier': 'velocityKinematics_interfaces'}
+[0.010534] (velocityKinematics_interfaces) JobProgress: {'identifier': 'velocityKinematics_interfaces', 'progress': 'cmake'}
+[0.010947] (velocityKinematics_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/root/RBE500_Manipulator_Project/ws_2/src/velocityKinematics_interfaces', '-DCMAKE_INSTALL_PREFIX=/root/RBE500_Manipulator_Project/ws_2/install/velocityKinematics_interfaces'], 'cwd': '/root/RBE500_Manipulator_Project/ws_2/build/velocityKinematics_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '783e31b344a1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/RBE500_Manipulator_Project/ws_2/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/RBE500_Manipulator_Project/ws_2/build/velocityKinematics_interfaces'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.084517] (velocityKinematics_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100110] (-) TimerEvent: {}
+[0.200563] (-) TimerEvent: {}
+[0.221068] (velocityKinematics_interfaces) StdoutLine: {'line': b'-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.221566] (velocityKinematics_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.253798] (velocityKinematics_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.257401] (velocityKinematics_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.266020] (velocityKinematics_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.280072] (velocityKinematics_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.294023] (velocityKinematics_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300665] (-) TimerEvent: {}
+[0.319282] (velocityKinematics_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.326791] (velocityKinematics_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.366654] (velocityKinematics_interfaces) StderrLine: {'line': b'WARNING: Package name "velocityKinematics_interfaces" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[0.400795] (-) TimerEvent: {}
+[0.460677] (velocityKinematics_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[0.460894] (velocityKinematics_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[0.461054] (velocityKinematics_interfaces) StderrLine: {'line': b'  velocityKinematics_interfaces --arguments-file\n'}
+[0.461109] (velocityKinematics_interfaces) StderrLine: {'line': b'  /root/RBE500_Manipulator_Project/ws_2/build/velocityKinematics_interfaces/rosidl_adapter__arguments__velocityKinematics_interfaces.json\n'}
+[0.461161] (velocityKinematics_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[0.461212] (velocityKinematics_interfaces) StderrLine: {'line': b'  /root/RBE500_Manipulator_Project/ws_2/build/velocityKinematics_interfaces/rosidl_adapter/velocityKinematics_interfaces\n'}
+[0.461262] (velocityKinematics_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[0.461311] (velocityKinematics_interfaces) StderrLine: {'line': b'  /root/RBE500_Manipulator_Project/ws_2/build/velocityKinematics_interfaces/rosidl_adapter/velocityKinematics_interfaces.idls)\n'}
+[0.461360] (velocityKinematics_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.461410] (velocityKinematics_interfaces) StderrLine: {'line': b'\n'}
+[0.461458] (velocityKinematics_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.461507] (velocityKinematics_interfaces) StderrLine: {'line': b'\n'}
+[0.461555] (velocityKinematics_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[0.461603] (velocityKinematics_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.461720] (velocityKinematics_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[0.461787] (velocityKinematics_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.461835] (velocityKinematics_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.461885] (velocityKinematics_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.461933] (velocityKinematics_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.461982] (velocityKinematics_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.462030] (velocityKinematics_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl\n'}
+[0.462079] (velocityKinematics_interfaces) StderrLine: {'line': b'      return convert_srv_to_idl(\n'}
+[0.462129] (velocityKinematics_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl\n'}
+[0.462185] (velocityKinematics_interfaces) StderrLine: {'line': b'      srv = parse_service_string(package_name, input_file.stem, content)\n'}
+[0.462235] (velocityKinematics_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string\n'}
+[0.462284] (velocityKinematics_interfaces) StderrLine: {'line': b'      request_message = parse_message_string(\n'}
+[0.462333] (velocityKinematics_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string\n'}
+[0.462381] (velocityKinematics_interfaces) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[0.462429] (velocityKinematics_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__\n'}
+[0.462477] (velocityKinematics_interfaces) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[0.462525] (velocityKinematics_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 201, in __init__\n'}
+[0.462573] (velocityKinematics_interfaces) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[0.462621] (velocityKinematics_interfaces) StderrLine: {'line': b'\n'}
+[0.462669] (velocityKinematics_interfaces) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'velocityKinematics_interfaces'\n"}
+[0.462717] (velocityKinematics_interfaces) StderrLine: {'line': b'  is an invalid package name.  It should have the pattern\n'}
+[0.462770] (velocityKinematics_interfaces) StderrLine: {'line': b"  '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'\n"}
+[0.462819] (velocityKinematics_interfaces) StderrLine: {'line': b'\n'}
+[0.462867] (velocityKinematics_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.462915] (velocityKinematics_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.462964] (velocityKinematics_interfaces) StderrLine: {'line': b'  CMakeLists.txt:26 (rosidl_generate_interfaces)\n'}
+[0.463014] (velocityKinematics_interfaces) StderrLine: {'line': b'\n'}
+[0.463062] (velocityKinematics_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.463111] (velocityKinematics_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.463166] (velocityKinematics_interfaces) StdoutLine: {'line': b'See also "/root/RBE500_Manipulator_Project/ws_2/build/velocityKinematics_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[0.468345] (velocityKinematics_interfaces) CommandEnded: {'returncode': 1}
+[0.486517] (velocityKinematics_interfaces) JobEnded: {'identifier': 'velocityKinematics_interfaces', 'rc': 1}
+[0.497187] (-) EventReactorShutdown: {}

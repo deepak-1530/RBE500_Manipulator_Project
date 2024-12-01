@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_py.dir/rosidl_generator_py/velocity_kinematics_interfaces/srv/_effector_to_joint_s.c.o"
+  "CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_py.dir/rosidl_generator_py/velocity_kinematics_interfaces/srv/_effector_to_joint_s.c.o.d"
+  "CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_py.dir/rosidl_generator_py/velocity_kinematics_interfaces/srv/_joint_to_effector_s.c.o"
+  "CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_py.dir/rosidl_generator_py/velocity_kinematics_interfaces/srv/_joint_to_effector_s.c.o.d"
+  "rosidl_generator_py/velocity_kinematics_interfaces/libvelocity_kinematics_interfaces__rosidl_generator_py.pdb"
+  "rosidl_generator_py/velocity_kinematics_interfaces/libvelocity_kinematics_interfaces__rosidl_generator_py.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
