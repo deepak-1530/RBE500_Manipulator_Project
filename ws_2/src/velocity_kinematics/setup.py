@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-	 'joint_to_endeffector_velocity_service = velocity_kinematics.joint_to_endeffector_node:main',
-         'endeffector_to_joint_velocity_service = velocity_kinematics.endeffector_to_joint_node:main'
+	 'joint_to_endeffector_velocity_service = velocity_kinematics.joint_to_endeffector:main',
+         'endeffector_to_joint_velocity_service = velocity_kinematics.endeffector_to_joint:main'
         ],
     },
 )

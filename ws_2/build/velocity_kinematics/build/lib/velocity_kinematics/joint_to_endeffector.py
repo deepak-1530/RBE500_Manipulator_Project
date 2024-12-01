@@ -8,7 +8,7 @@ import math
 
 class JointToEndEffector(Node):
     def __init__(self):
-        super().__init__('joint_to_endeffector_node')
+        super().__init__('joint_to_endeffector')
         self.service = self.create_service(
             JointEndEffector,
             'joint_to_endeffector',

@@ -1,0 +1,25 @@
+[0.496s] Invoking command in '/root/RBE500_Manipulator_Project/ws_2/src/velocity_kinematics': PYTHONPATH=/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/velocity_kinematics build --build-base /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics/build install --record /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics/install.log --single-version-externally-managed install_data
+[0.696s] running egg_info
+[0.696s] writing ../../build/velocity_kinematics/velocity_kinematics.egg-info/PKG-INFO
+[0.696s] writing dependency_links to ../../build/velocity_kinematics/velocity_kinematics.egg-info/dependency_links.txt
+[0.696s] writing entry points to ../../build/velocity_kinematics/velocity_kinematics.egg-info/entry_points.txt
+[0.697s] writing requirements to ../../build/velocity_kinematics/velocity_kinematics.egg-info/requires.txt
+[0.697s] writing top-level names to ../../build/velocity_kinematics/velocity_kinematics.egg-info/top_level.txt
+[0.698s] reading manifest file '../../build/velocity_kinematics/velocity_kinematics.egg-info/SOURCES.txt'
+[0.699s] writing manifest file '../../build/velocity_kinematics/velocity_kinematics.egg-info/SOURCES.txt'
+[0.699s] running build
+[0.699s] running build_py
+[0.699s] copying velocity_kinematics/joint_to_endeffector_node.py -> /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics/build/lib/velocity_kinematics
+[0.699s] running install
+[0.699s] running install_lib
+[0.700s] copying /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics/build/lib/velocity_kinematics/joint_to_endeffector_node.py -> /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/lib/python3.10/site-packages/velocity_kinematics
+[0.701s] byte-compiling /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/lib/python3.10/site-packages/velocity_kinematics/joint_to_endeffector_node.py to joint_to_endeffector_node.cpython-310.pyc
+[0.701s] running install_data
+[0.701s] running install_egg_info
+[0.703s] removing '/root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/lib/python3.10/site-packages/velocity_kinematics-0.0.0-py3.10.egg-info' (and everything under it)
+[0.703s] Copying ../../build/velocity_kinematics/velocity_kinematics.egg-info to /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/lib/python3.10/site-packages/velocity_kinematics-0.0.0-py3.10.egg-info
+[0.704s] running install_scripts
+[0.720s] Installing endeffector_to_joint_velocity_service script to /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/lib/velocity_kinematics
+[0.720s] Installing joint_to_endeffector_velocity_service script to /root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/lib/velocity_kinematics
+[0.720s] writing list of installed files to '/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics/install.log'
+[0.736s] Invoked command in '/root/RBE500_Manipulator_Project/ws_2/src/velocity_kinematics' returned '0': PYTHONPATH=/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/RBE500_Manipulator_Project/ws_2/install/velocity_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/velocity_kinematics build --build-base /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics/build install --record /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics/install.log --single-version-externally-managed install_data

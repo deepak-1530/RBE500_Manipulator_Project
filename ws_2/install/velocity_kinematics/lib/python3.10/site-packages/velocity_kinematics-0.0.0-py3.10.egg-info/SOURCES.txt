@@ -13,5 +13,5 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 velocity_kinematics/__init__.py
-velocity_kinematics/endeffector_to_joint_node.py
-velocity_kinematics/joint_to_endeffector_node.py
+velocity_kinematics/endeffector_to_joint.py
+velocity_kinematics/joint_to_endeffector.py

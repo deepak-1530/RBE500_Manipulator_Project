@@ -2,17 +2,17 @@
 import rclpy
 from rclpy.node import Node
 import numpy as np
-from velocity_kinematics_interfaces.srv import JointEndEffector
+from velocity_kinematics_interfaces.srv import EndEffectorJoint
 import math
 
 
-class JointToEndEffector(Node):
+class EndEffectorToJoint(Node):
     def __init__(self):
-        super().__init__('joint_to_endeffector_node')
+        super().__init__('endeffector_to_joint')
         self.service = self.create_service(
-            JointEndEffector,
-            'joint_to_endeffector',
-            self.joint_to_endeffector_callback
+            EndEffectorJoint,
+            'endeffector_to_joint',
+            self.endeffector_to_joint_callback
         )
         self.measured_joint_values = []
 
@@ -48,19 +48,19 @@ class JointToEndEffector(Node):
             [Jw31, Jw32, Jw33, Jw34],
         ])
 
-    def joint_to_endeffector_callback(self, request, response):
-        joint_vel = np.array([[request.joint_vel1], [request.joint_vel2], [request.joint_vel3], [request.joint_vel4]])
+    def endeffector_to_joint_callback(self, request, response):
+        endeffector_vel = np.array([[request.vx], [request.vy], [request.vz], [request.wx], [request.wy], [request.wz]])
         thetaList = self.measured_joint_values
         Jacobian_mat = self.calculate_jacobian(thetaList)
-        endeffector_vel = Jacobian_mat @ joint_vel
-        response.vx, response.vy, response.vz, response.wx, response.wy, response.wz = endeffector_vel.flatten()
+        joint_vel = np.linalg.pinv(Jacobian_mat) @ endeffector_vel
+        response.joint1_vel, response.joint2_vel, response.joint3_vel, response.joint4_vel = joint_vel.flatten()
         return response
 
 
 def main(args=None):
     rclpy.init(args=args)
-    endeffector_velocity = JointToEndEffector()
-    rclpy.spin(endeffector_velocity)
+    joint_velocity = EndEffectorToJoint()
+    rclpy.spin(joint_velocity)
     rclpy.shutdown()
 
 if __name__ == '__main__':
