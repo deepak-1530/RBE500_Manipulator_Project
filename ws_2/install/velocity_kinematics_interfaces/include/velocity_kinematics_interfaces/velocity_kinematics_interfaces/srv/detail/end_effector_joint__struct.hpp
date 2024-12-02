@@ -44,6 +44,10 @@ struct EndEffectorJoint_Request_
       this->wx = 0.0f;
       this->wy = 0.0f;
       this->wz = 0.0f;
+      this->q1 = 0.0f;
+      this->q2 = 0.0f;
+      this->q3 = 0.0f;
+      this->q4 = 0.0f;
     }
   }
 
@@ -59,6 +63,10 @@ struct EndEffectorJoint_Request_
       this->wx = 0.0f;
       this->wy = 0.0f;
       this->wz = 0.0f;
+      this->q1 = 0.0f;
+      this->q2 = 0.0f;
+      this->q3 = 0.0f;
+      this->q4 = 0.0f;
     }
   }
 
@@ -81,6 +89,18 @@ struct EndEffectorJoint_Request_
   using _wz_type =
     float;
   _wz_type wz;
+  using _q1_type =
+    float;
+  _q1_type q1;
+  using _q2_type =
+    float;
+  _q2_type q2;
+  using _q3_type =
+    float;
+  _q3_type q3;
+  using _q4_type =
+    float;
+  _q4_type q4;
 
   // setters for named parameter idiom
   Type & set__vx(
@@ -117,6 +137,30 @@ struct EndEffectorJoint_Request_
     const float & _arg)
   {
     this->wz = _arg;
+    return *this;
+  }
+  Type & set__q1(
+    const float & _arg)
+  {
+    this->q1 = _arg;
+    return *this;
+  }
+  Type & set__q2(
+    const float & _arg)
+  {
+    this->q2 = _arg;
+    return *this;
+  }
+  Type & set__q3(
+    const float & _arg)
+  {
+    this->q3 = _arg;
+    return *this;
+  }
+  Type & set__q4(
+    const float & _arg)
+  {
+    this->q4 = _arg;
     return *this;
   }
 
@@ -178,6 +222,18 @@ struct EndEffectorJoint_Request_
       return false;
     }
     if (this->wz != other.wz) {
+      return false;
+    }
+    if (this->q1 != other.q1) {
+      return false;
+    }
+    if (this->q2 != other.q2) {
+      return false;
+    }
+    if (this->q3 != other.q3) {
+      return false;
+    }
+    if (this->q4 != other.q4) {
       return false;
     }
     return true;

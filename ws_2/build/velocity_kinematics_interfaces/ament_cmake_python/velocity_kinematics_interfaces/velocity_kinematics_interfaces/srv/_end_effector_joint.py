@@ -63,6 +63,10 @@ class EndEffectorJoint_Request(metaclass=Metaclass_EndEffectorJoint_Request):
         '_wx',
         '_wy',
         '_wz',
+        '_q1',
+        '_q2',
+        '_q3',
+        '_q4',
     ]
 
     _fields_and_field_types = {
@@ -72,9 +76,17 @@ class EndEffectorJoint_Request(metaclass=Metaclass_EndEffectorJoint_Request):
         'wx': 'float',
         'wy': 'float',
         'wz': 'float',
+        'q1': 'float',
+        'q2': 'float',
+        'q3': 'float',
+        'q4': 'float',
     }
 
     SLOT_TYPES = (
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
@@ -93,6 +105,10 @@ class EndEffectorJoint_Request(metaclass=Metaclass_EndEffectorJoint_Request):
         self.wx = kwargs.get('wx', float())
         self.wy = kwargs.get('wy', float())
         self.wz = kwargs.get('wz', float())
+        self.q1 = kwargs.get('q1', float())
+        self.q2 = kwargs.get('q2', float())
+        self.q3 = kwargs.get('q3', float())
+        self.q4 = kwargs.get('q4', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -134,6 +150,14 @@ class EndEffectorJoint_Request(metaclass=Metaclass_EndEffectorJoint_Request):
         if self.wy != other.wy:
             return False
         if self.wz != other.wz:
+            return False
+        if self.q1 != other.q1:
+            return False
+        if self.q2 != other.q2:
+            return False
+        if self.q3 != other.q3:
+            return False
+        if self.q4 != other.q4:
             return False
         return True
 
@@ -231,6 +255,66 @@ class EndEffectorJoint_Request(metaclass=Metaclass_EndEffectorJoint_Request):
             assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
                 "The 'wz' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._wz = value
+
+    @builtins.property
+    def q1(self):
+        """Message field 'q1'."""
+        return self._q1
+
+    @q1.setter
+    def q1(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, float), \
+                "The 'q1' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'q1' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._q1 = value
+
+    @builtins.property
+    def q2(self):
+        """Message field 'q2'."""
+        return self._q2
+
+    @q2.setter
+    def q2(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, float), \
+                "The 'q2' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'q2' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._q2 = value
+
+    @builtins.property
+    def q3(self):
+        """Message field 'q3'."""
+        return self._q3
+
+    @q3.setter
+    def q3(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, float), \
+                "The 'q3' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'q3' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._q3 = value
+
+    @builtins.property
+    def q4(self):
+        """Message field 'q4'."""
+        return self._q4
+
+    @q4.setter
+    def q4(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, float), \
+                "The 'q4' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'q4' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._q4 = value
 
 
 # Import statements for member types

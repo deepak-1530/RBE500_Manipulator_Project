@@ -1,0 +1,59 @@
+[0.257s] Invoking command in '/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces -- -j12 -l12
+[0.281s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.413s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.414s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.437s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.440s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.446s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.455s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.467s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.491s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.498s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.690s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.690s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.690s]   velocity_kinematics_interfaces --arguments-file
+[0.690s]   /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter__arguments__velocity_kinematics_interfaces.json
+[0.690s]   --output-dir
+[0.691s]   /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces
+[0.691s]   --output-file
+[0.691s]   /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces.idls)
+[0.691s]   returned error code 1:
+[0.691s] 
+[0.691s]   Error processing 'float32 jointAngle1' of
+[0.691s]   'velocity_kinematics_interfaces/EndEffectorJoint_Request': ''jointAngle1'
+[0.691s]   is an invalid field name.  It should have the pattern
+[0.691s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[0.691s] 
+[0.691s]   Traceback (most recent call last):
+[0.691s] 
+[0.691s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.691s]       return _run_code(code, main_globals, None,
+[0.692s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.692s]       exec(code, run_globals)
+[0.692s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.692s]       sys.exit(main())
+[0.692s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.692s]       abs_idl_file = convert_to_idl(
+[0.692s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.692s]       return convert_srv_to_idl(
+[0.692s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.692s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.692s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string
+[0.692s]       request_message = parse_message_string(
+[0.692s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string
+[0.693s]       fields.append(Field(
+[0.693s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 354, in __init__
+[0.693s]       raise NameError(
+[0.693s] 
+[0.693s]   NameError: 'jointAngle1' is an invalid field name.  It should have the
+[0.693s]   pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[0.693s] 
+[0.693s] Call Stack (most recent call first):
+[0.693s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.693s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[0.693s] 
+[0.693s] [0m
+[0.693s] -- Configuring incomplete, errors occurred!
+[0.694s] See also "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/CMakeFiles/CMakeOutput.log".
+[0.694s] gmake: *** [Makefile:1179: cmake_check_build_system] Error 1
+[0.696s] Invoked command in '/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces -- -j12 -l12

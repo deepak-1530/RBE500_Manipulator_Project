@@ -21,16 +21,80 @@ namespace srv
 namespace builder
 {
 
+class Init_EndEffectorJoint_Request_q4
+{
+public:
+  explicit Init_EndEffectorJoint_Request_q4(::velocity_kinematics_interfaces::srv::EndEffectorJoint_Request & msg)
+  : msg_(msg)
+  {}
+  ::velocity_kinematics_interfaces::srv::EndEffectorJoint_Request q4(::velocity_kinematics_interfaces::srv::EndEffectorJoint_Request::_q4_type arg)
+  {
+    msg_.q4 = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::velocity_kinematics_interfaces::srv::EndEffectorJoint_Request msg_;
+};
+
+class Init_EndEffectorJoint_Request_q3
+{
+public:
+  explicit Init_EndEffectorJoint_Request_q3(::velocity_kinematics_interfaces::srv::EndEffectorJoint_Request & msg)
+  : msg_(msg)
+  {}
+  Init_EndEffectorJoint_Request_q4 q3(::velocity_kinematics_interfaces::srv::EndEffectorJoint_Request::_q3_type arg)
+  {
+    msg_.q3 = std::move(arg);
+    return Init_EndEffectorJoint_Request_q4(msg_);
+  }
+
+private:
+  ::velocity_kinematics_interfaces::srv::EndEffectorJoint_Request msg_;
+};
+
+class Init_EndEffectorJoint_Request_q2
+{
+public:
+  explicit Init_EndEffectorJoint_Request_q2(::velocity_kinematics_interfaces::srv::EndEffectorJoint_Request & msg)
+  : msg_(msg)
+  {}
+  Init_EndEffectorJoint_Request_q3 q2(::velocity_kinematics_interfaces::srv::EndEffectorJoint_Request::_q2_type arg)
+  {
+    msg_.q2 = std::move(arg);
+    return Init_EndEffectorJoint_Request_q3(msg_);
+  }
+
+private:
+  ::velocity_kinematics_interfaces::srv::EndEffectorJoint_Request msg_;
+};
+
+class Init_EndEffectorJoint_Request_q1
+{
+public:
+  explicit Init_EndEffectorJoint_Request_q1(::velocity_kinematics_interfaces::srv::EndEffectorJoint_Request & msg)
+  : msg_(msg)
+  {}
+  Init_EndEffectorJoint_Request_q2 q1(::velocity_kinematics_interfaces::srv::EndEffectorJoint_Request::_q1_type arg)
+  {
+    msg_.q1 = std::move(arg);
+    return Init_EndEffectorJoint_Request_q2(msg_);
+  }
+
+private:
+  ::velocity_kinematics_interfaces::srv::EndEffectorJoint_Request msg_;
+};
+
 class Init_EndEffectorJoint_Request_wz
 {
 public:
   explicit Init_EndEffectorJoint_Request_wz(::velocity_kinematics_interfaces::srv::EndEffectorJoint_Request & msg)
   : msg_(msg)
   {}
-  ::velocity_kinematics_interfaces::srv::EndEffectorJoint_Request wz(::velocity_kinematics_interfaces::srv::EndEffectorJoint_Request::_wz_type arg)
+  Init_EndEffectorJoint_Request_q1 wz(::velocity_kinematics_interfaces::srv::EndEffectorJoint_Request::_wz_type arg)
   {
     msg_.wz = std::move(arg);
-    return std::move(msg_);
+    return Init_EndEffectorJoint_Request_q1(msg_);
   }
 
 private:

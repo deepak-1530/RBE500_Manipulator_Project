@@ -79,6 +79,26 @@ static bool _EndEffectorJoint_Request__cdr_serialize(
     cdr << ros_message->wz;
   }
 
+  // Field name: q1
+  {
+    cdr << ros_message->q1;
+  }
+
+  // Field name: q2
+  {
+    cdr << ros_message->q2;
+  }
+
+  // Field name: q3
+  {
+    cdr << ros_message->q3;
+  }
+
+  // Field name: q4
+  {
+    cdr << ros_message->q4;
+  }
+
   return true;
 }
 
@@ -119,6 +139,26 @@ static bool _EndEffectorJoint_Request__cdr_deserialize(
   // Field name: wz
   {
     cdr >> ros_message->wz;
+  }
+
+  // Field name: q1
+  {
+    cdr >> ros_message->q1;
+  }
+
+  // Field name: q2
+  {
+    cdr >> ros_message->q2;
+  }
+
+  // Field name: q3
+  {
+    cdr >> ros_message->q3;
+  }
+
+  // Field name: q4
+  {
+    cdr >> ros_message->q4;
   }
 
   return true;
@@ -171,6 +211,30 @@ size_t get_serialized_size_velocity_kinematics_interfaces__srv__EndEffectorJoint
   // field.name wz
   {
     size_t item_size = sizeof(ros_message->wz);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name q1
+  {
+    size_t item_size = sizeof(ros_message->q1);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name q2
+  {
+    size_t item_size = sizeof(ros_message->q2);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name q3
+  {
+    size_t item_size = sizeof(ros_message->q3);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name q4
+  {
+    size_t item_size = sizeof(ros_message->q4);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -251,6 +315,38 @@ size_t max_serialized_size_velocity_kinematics_interfaces__srv__EndEffectorJoint
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
+  // member: q1
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+  // member: q2
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+  // member: q3
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+  // member: q4
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
 
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
@@ -260,7 +356,7 @@ size_t max_serialized_size_velocity_kinematics_interfaces__srv__EndEffectorJoint
     using DataType = velocity_kinematics_interfaces__srv__EndEffectorJoint_Request;
     is_plain =
       (
-      offsetof(DataType, wz) +
+      offsetof(DataType, q4) +
       last_member_size
       ) == ret_val;
   }

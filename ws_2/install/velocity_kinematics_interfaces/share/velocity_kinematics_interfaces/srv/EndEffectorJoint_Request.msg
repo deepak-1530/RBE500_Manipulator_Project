@@ -4,3 +4,7 @@ float32 vz
 float32 wx
 float32 wy
 float32 wz
+float32 q1
+float32 q2
+float32 q3
+float32 q4

@@ -104,6 +104,42 @@ bool velocity_kinematics_interfaces__srv__end_effector_joint__request__convert_f
     ros_message->wz = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
+  {  // q1
+    PyObject * field = PyObject_GetAttrString(_pymsg, "q1");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->q1 = (float)PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
+  {  // q2
+    PyObject * field = PyObject_GetAttrString(_pymsg, "q2");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->q2 = (float)PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
+  {  // q3
+    PyObject * field = PyObject_GetAttrString(_pymsg, "q3");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->q3 = (float)PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
+  {  // q4
+    PyObject * field = PyObject_GetAttrString(_pymsg, "q4");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->q4 = (float)PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
 
   return true;
 }
@@ -186,6 +222,50 @@ PyObject * velocity_kinematics_interfaces__srv__end_effector_joint__request__con
     field = PyFloat_FromDouble(ros_message->wz);
     {
       int rc = PyObject_SetAttrString(_pymessage, "wz", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // q1
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->q1);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "q1", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // q2
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->q2);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "q2", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // q3
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->q3);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "q3", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // q4
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->q4);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "q4", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

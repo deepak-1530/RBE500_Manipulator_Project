@@ -26,6 +26,10 @@ typedef struct velocity_kinematics_interfaces__srv__EndEffectorJoint_Request
   float wx;
   float wy;
   float wz;
+  float q1;
+  float q2;
+  float q3;
+  float q4;
 } velocity_kinematics_interfaces__srv__EndEffectorJoint_Request;
 
 // Struct for a sequence of velocity_kinematics_interfaces__srv__EndEffectorJoint_Request.

@@ -17,6 +17,14 @@ module velocity_kinematics_interfaces {
       float wy;
 
       float wz;
+
+      float q1;
+
+      float q2;
+
+      float q3;
+
+      float q4;
     };
     struct EndEffectorJoint_Response {
       float joint_vel1;

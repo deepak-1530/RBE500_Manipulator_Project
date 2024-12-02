@@ -44,6 +44,14 @@ cdr_serialize(
   cdr << ros_message.wy;
   // Member: wz
   cdr << ros_message.wz;
+  // Member: q1
+  cdr << ros_message.q1;
+  // Member: q2
+  cdr << ros_message.q2;
+  // Member: q3
+  cdr << ros_message.q3;
+  // Member: q4
+  cdr << ros_message.q4;
   return true;
 }
 
@@ -70,6 +78,18 @@ cdr_deserialize(
 
   // Member: wz
   cdr >> ros_message.wz;
+
+  // Member: q1
+  cdr >> ros_message.q1;
+
+  // Member: q2
+  cdr >> ros_message.q2;
+
+  // Member: q3
+  cdr >> ros_message.q3;
+
+  // Member: q4
+  cdr >> ros_message.q4;
 
   return true;
 }
@@ -120,6 +140,30 @@ get_serialized_size(
   // Member: wz
   {
     size_t item_size = sizeof(ros_message.wz);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: q1
+  {
+    size_t item_size = sizeof(ros_message.q1);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: q2
+  {
+    size_t item_size = sizeof(ros_message.q2);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: q3
+  {
+    size_t item_size = sizeof(ros_message.q3);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: q4
+  {
+    size_t item_size = sizeof(ros_message.q4);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -201,6 +245,42 @@ max_serialized_size_EndEffectorJoint_Request(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
+  // Member: q1
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
+  // Member: q2
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
+  // Member: q3
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
+  // Member: q4
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
     // All members are plain, and type is not empty.
@@ -209,7 +289,7 @@ max_serialized_size_EndEffectorJoint_Request(
     using DataType = velocity_kinematics_interfaces::srv::EndEffectorJoint_Request;
     is_plain =
       (
-      offsetof(DataType, wz) +
+      offsetof(DataType, q4) +
       last_member_size
       ) == ret_val;
   }

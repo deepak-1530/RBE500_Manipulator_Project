@@ -37,7 +37,7 @@ void EndEffectorJoint_Request_fini_function(void * message_memory)
   typed_message->~EndEffectorJoint_Request();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember EndEffectorJoint_Request_message_member_array[6] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember EndEffectorJoint_Request_message_member_array[10] = {
   {
     "vx",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
@@ -139,13 +139,81 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember EndEffectorJo
     nullptr,  // fetch(index, &value) function pointer
     nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
+  },
+  {
+    "q1",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(velocity_kinematics_interfaces::srv::EndEffectorJoint_Request, q1),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "q2",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(velocity_kinematics_interfaces::srv::EndEffectorJoint_Request, q2),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "q3",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(velocity_kinematics_interfaces::srv::EndEffectorJoint_Request, q3),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "q4",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(velocity_kinematics_interfaces::srv::EndEffectorJoint_Request, q4),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers EndEffectorJoint_Request_message_members = {
   "velocity_kinematics_interfaces::srv",  // message namespace
   "EndEffectorJoint_Request",  // message name
-  6,  // number of fields
+  10,  // number of fields
   sizeof(velocity_kinematics_interfaces::srv::EndEffectorJoint_Request),
   EndEffectorJoint_Request_message_member_array,  // message members
   EndEffectorJoint_Request_init_function,  // function to initialize message memory (memory has to be allocated)

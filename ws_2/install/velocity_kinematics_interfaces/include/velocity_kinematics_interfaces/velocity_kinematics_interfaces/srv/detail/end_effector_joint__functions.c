@@ -22,6 +22,10 @@ velocity_kinematics_interfaces__srv__EndEffectorJoint_Request__init(velocity_kin
   // wx
   // wy
   // wz
+  // q1
+  // q2
+  // q3
+  // q4
   return true;
 }
 
@@ -37,6 +41,10 @@ velocity_kinematics_interfaces__srv__EndEffectorJoint_Request__fini(velocity_kin
   // wx
   // wy
   // wz
+  // q1
+  // q2
+  // q3
+  // q4
 }
 
 bool
@@ -69,6 +77,22 @@ velocity_kinematics_interfaces__srv__EndEffectorJoint_Request__are_equal(const v
   if (lhs->wz != rhs->wz) {
     return false;
   }
+  // q1
+  if (lhs->q1 != rhs->q1) {
+    return false;
+  }
+  // q2
+  if (lhs->q2 != rhs->q2) {
+    return false;
+  }
+  // q3
+  if (lhs->q3 != rhs->q3) {
+    return false;
+  }
+  // q4
+  if (lhs->q4 != rhs->q4) {
+    return false;
+  }
   return true;
 }
 
@@ -92,6 +116,14 @@ velocity_kinematics_interfaces__srv__EndEffectorJoint_Request__copy(
   output->wy = input->wy;
   // wz
   output->wz = input->wz;
+  // q1
+  output->q1 = input->q1;
+  // q2
+  output->q2 = input->q2;
+  // q3
+  output->q3 = input->q3;
+  // q4
+  output->q4 = input->q4;
   return true;
 }
 
