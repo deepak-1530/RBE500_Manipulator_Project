@@ -14,7 +14,11 @@ class JointToEndEffector(Node):
             'joint_to_endeffector',
             self.joint_to_endeffector_callback
         )
+<<<<<<< HEAD
         self.measured_joint_values = [30,0,30,30]
+=======
+        self.measured_joint_values = [30,0,30,45]
+>>>>>>> 1378d869623a5e9fbb463863b53f49ca788561d9
 
     def calculate_jacobian(self, thetaList):
         l1, l2, l3, l4 = 0.096326, 0.130231, 0.124, 0.1334
