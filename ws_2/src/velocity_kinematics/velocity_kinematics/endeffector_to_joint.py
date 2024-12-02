@@ -14,7 +14,7 @@ class EndEffectorToJoint(Node):
             'endeffector_to_joint',
             self.endeffector_to_joint_callback
         )
-        self.measured_joint_values = [30,0,30,45]
+        self.measured_joint_values = []
 
     def calculate_jacobian(self, thetaList):
         l1, l2, l3, l4 = 0.096326, 0.130231, 0.124, 0.1334
@@ -50,7 +50,7 @@ class EndEffectorToJoint(Node):
 
     def endeffector_to_joint_callback(self, request, response):
         endeffector_vel = np.array([[request.vx], [request.vy], [request.vz], [request.wx], [request.wy], [request.wz]])
-        thetaList = self.measured_joint_values
+        thetaList = [request.q1, request.q2, request.q3, request.q4]
         Jacobian_mat = self.calculate_jacobian(thetaList)
         joint_vel = np.linalg.pinv(Jacobian_mat) @ endeffector_vel
         response.joint_vel1, response.joint_vel2, response.joint_vel3, response.joint_vel4 = joint_vel.flatten()
