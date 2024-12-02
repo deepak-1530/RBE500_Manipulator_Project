@@ -26,6 +26,7 @@ endif()
 rosidl_generate_interfaces(${PROJECT_NAME}
 "srv/JointEndEffector.srv"
 "srv/EndEffectorJoint.srv"
+"msg/EndEffectorVelocity.msg"
 )
 
 ament_export_dependencies(rosidl_default_runtime)
