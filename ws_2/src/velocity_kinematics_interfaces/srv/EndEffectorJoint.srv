@@ -4,10 +4,10 @@ float32 vz
 float32 wx
 float32 wy
 float32 wz
-float32 jointAngle1
-float32 jointAngle2
-float32 jointAngle3
-float32 jointAngle4
+float32 q1
+float32 q2
+float32 q3
+float32 q4
 ---
 float32 joint_vel1
 float32 joint_vel2
