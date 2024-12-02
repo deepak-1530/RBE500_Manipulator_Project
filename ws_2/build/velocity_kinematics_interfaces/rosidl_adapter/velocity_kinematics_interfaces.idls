@@ -1,2 +1,3 @@
 /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces:srv/JointEndEffector.idl
 /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces:srv/EndEffectorJoint.idl
+/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces:msg/EndEffectorVelocity.idl

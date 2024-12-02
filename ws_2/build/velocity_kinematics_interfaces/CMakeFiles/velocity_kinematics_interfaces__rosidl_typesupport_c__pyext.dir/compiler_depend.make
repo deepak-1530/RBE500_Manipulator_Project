@@ -242,8 +242,11 @@ CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c__pyext.dir/rosid
   /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
-  rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_end_effector__type_support.h \
+  rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__type_support.h \
   rosidl_generator_c/velocity_kinematics_interfaces/msg/rosidl_generator_c__visibility_control.h \
+  rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__struct.h \
+  rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.h \
+  rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_end_effector__type_support.h \
   rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_end_effector__struct.h \
   rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_end_effector__functions.h \
   rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/end_effector_joint__type_support.h \
@@ -252,6 +255,10 @@ CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c__pyext.dir/rosid
 
 
 rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_end_effector__functions.h:
+
+rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__struct.h:
+
+rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__type_support.h:
 
 /usr/include/python3.10/fileutils.h:
 
@@ -404,6 +411,8 @@ rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/end_effector_joint_
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 

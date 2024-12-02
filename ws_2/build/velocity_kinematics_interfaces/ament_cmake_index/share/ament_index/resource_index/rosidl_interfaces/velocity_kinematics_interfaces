@@ -1,3 +1,5 @@
+msg/EndEffectorVelocity.idl
+msg/EndEffectorVelocity.msg
 srv/EndEffectorJoint.idl
 srv/EndEffectorJoint.srv
 srv/EndEffectorJoint_Request.msg

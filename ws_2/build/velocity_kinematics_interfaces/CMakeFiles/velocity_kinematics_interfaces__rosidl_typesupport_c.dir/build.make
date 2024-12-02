@@ -77,11 +77,15 @@ rosidl_typesupport_c/velocity_kinematics_interfaces/srv/joint_end_effector__type
 rosidl_typesupport_c/velocity_kinematics_interfaces/srv/joint_end_effector__type_support.cpp: /opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em
 rosidl_typesupport_c/velocity_kinematics_interfaces/srv/joint_end_effector__type_support.cpp: rosidl_adapter/velocity_kinematics_interfaces/srv/JointEndEffector.idl
 rosidl_typesupport_c/velocity_kinematics_interfaces/srv/joint_end_effector__type_support.cpp: rosidl_adapter/velocity_kinematics_interfaces/srv/EndEffectorJoint.idl
+rosidl_typesupport_c/velocity_kinematics_interfaces/srv/joint_end_effector__type_support.cpp: rosidl_adapter/velocity_kinematics_interfaces/msg/EndEffectorVelocity.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support dispatch for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
 
 rosidl_typesupport_c/velocity_kinematics_interfaces/srv/end_effector_joint__type_support.cpp: rosidl_typesupport_c/velocity_kinematics_interfaces/srv/joint_end_effector__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/velocity_kinematics_interfaces/srv/end_effector_joint__type_support.cpp
+
+rosidl_typesupport_c/velocity_kinematics_interfaces/msg/end_effector_velocity__type_support.cpp: rosidl_typesupport_c/velocity_kinematics_interfaces/srv/joint_end_effector__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/velocity_kinematics_interfaces/msg/end_effector_velocity__type_support.cpp
 
 CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_kinematics_interfaces/srv/joint_end_effector__type_support.cpp.o: CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_kinematics_interfaces/srv/joint_end_effector__type_support.cpp.o: rosidl_typesupport_c/velocity_kinematics_interfaces/srv/joint_end_effector__type_support.cpp
@@ -111,23 +115,39 @@ CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_types
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_kinematics_interfaces/srv/end_effector_joint__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_typesupport_c/velocity_kinematics_interfaces/srv/end_effector_joint__type_support.cpp -o CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_kinematics_interfaces/srv/end_effector_joint__type_support.cpp.s
 
+CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_kinematics_interfaces/msg/end_effector_velocity__type_support.cpp.o: CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_kinematics_interfaces/msg/end_effector_velocity__type_support.cpp.o: rosidl_typesupport_c/velocity_kinematics_interfaces/msg/end_effector_velocity__type_support.cpp
+CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_kinematics_interfaces/msg/end_effector_velocity__type_support.cpp.o: CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_kinematics_interfaces/msg/end_effector_velocity__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_kinematics_interfaces/msg/end_effector_velocity__type_support.cpp.o -MF CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_kinematics_interfaces/msg/end_effector_velocity__type_support.cpp.o.d -o CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_kinematics_interfaces/msg/end_effector_velocity__type_support.cpp.o -c /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_typesupport_c/velocity_kinematics_interfaces/msg/end_effector_velocity__type_support.cpp
+
+CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_kinematics_interfaces/msg/end_effector_velocity__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_kinematics_interfaces/msg/end_effector_velocity__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_typesupport_c/velocity_kinematics_interfaces/msg/end_effector_velocity__type_support.cpp > CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_kinematics_interfaces/msg/end_effector_velocity__type_support.cpp.i
+
+CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_kinematics_interfaces/msg/end_effector_velocity__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_kinematics_interfaces/msg/end_effector_velocity__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_typesupport_c/velocity_kinematics_interfaces/msg/end_effector_velocity__type_support.cpp -o CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_kinematics_interfaces/msg/end_effector_velocity__type_support.cpp.s
+
 # Object files for target velocity_kinematics_interfaces__rosidl_typesupport_c
 velocity_kinematics_interfaces__rosidl_typesupport_c_OBJECTS = \
 "CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_kinematics_interfaces/srv/joint_end_effector__type_support.cpp.o" \
-"CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_kinematics_interfaces/srv/end_effector_joint__type_support.cpp.o"
+"CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_kinematics_interfaces/srv/end_effector_joint__type_support.cpp.o" \
+"CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_kinematics_interfaces/msg/end_effector_velocity__type_support.cpp.o"
 
 # External object files for target velocity_kinematics_interfaces__rosidl_typesupport_c
 velocity_kinematics_interfaces__rosidl_typesupport_c_EXTERNAL_OBJECTS =
 
 libvelocity_kinematics_interfaces__rosidl_typesupport_c.so: CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_kinematics_interfaces/srv/joint_end_effector__type_support.cpp.o
 libvelocity_kinematics_interfaces__rosidl_typesupport_c.so: CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_kinematics_interfaces/srv/end_effector_joint__type_support.cpp.o
+libvelocity_kinematics_interfaces__rosidl_typesupport_c.so: CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/velocity_kinematics_interfaces/msg/end_effector_velocity__type_support.cpp.o
 libvelocity_kinematics_interfaces__rosidl_typesupport_c.so: CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/build.make
 libvelocity_kinematics_interfaces__rosidl_typesupport_c.so: libvelocity_kinematics_interfaces__rosidl_generator_c.so
 libvelocity_kinematics_interfaces__rosidl_typesupport_c.so: /opt/ros/humble/lib/librosidl_typesupport_c.so
 libvelocity_kinematics_interfaces__rosidl_typesupport_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libvelocity_kinematics_interfaces__rosidl_typesupport_c.so: /opt/ros/humble/lib/librcutils.so
 libvelocity_kinematics_interfaces__rosidl_typesupport_c.so: CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libvelocity_kinematics_interfaces__rosidl_typesupport_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libvelocity_kinematics_interfaces__rosidl_typesupport_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +158,7 @@ CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/clean
 
+CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/velocity_kinematics_interfaces/msg/end_effector_velocity__type_support.cpp
 CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/velocity_kinematics_interfaces/srv/end_effector_joint__type_support.cpp
 CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/velocity_kinematics_interfaces/srv/joint_end_effector__type_support.cpp
 	cd /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/RBE500_Manipulator_Project/ws_2/src/velocity_kinematics_interfaces /root/RBE500_Manipulator_Project/ws_2/src/velocity_kinematics_interfaces /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/CMakeFiles/velocity_kinematics_interfaces__rosidl_typesupport_c.dir/DependInfo.cmake --color=$(COLOR)

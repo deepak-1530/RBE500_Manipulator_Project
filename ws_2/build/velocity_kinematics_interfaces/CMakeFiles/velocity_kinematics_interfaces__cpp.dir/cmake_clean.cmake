@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/velocity_kinematics_interfaces__cpp"
+  "rosidl_generator_cpp/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__builder.hpp"
+  "rosidl_generator_cpp/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__struct.hpp"
+  "rosidl_generator_cpp/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__traits.hpp"
+  "rosidl_generator_cpp/velocity_kinematics_interfaces/msg/end_effector_velocity.hpp"
   "rosidl_generator_cpp/velocity_kinematics_interfaces/srv/detail/end_effector_joint__builder.hpp"
   "rosidl_generator_cpp/velocity_kinematics_interfaces/srv/detail/end_effector_joint__struct.hpp"
   "rosidl_generator_cpp/velocity_kinematics_interfaces/srv/detail/end_effector_joint__traits.hpp"

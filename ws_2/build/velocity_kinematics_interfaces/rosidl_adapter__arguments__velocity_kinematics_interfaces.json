@@ -2,6 +2,7 @@
   "package_name": "velocity_kinematics_interfaces",
   "non_idl_tuples": [
     "/root/RBE500_Manipulator_Project/ws_2/src/velocity_kinematics_interfaces:srv/JointEndEffector.srv",
-    "/root/RBE500_Manipulator_Project/ws_2/src/velocity_kinematics_interfaces:srv/EndEffectorJoint.srv"
+    "/root/RBE500_Manipulator_Project/ws_2/src/velocity_kinematics_interfaces:srv/EndEffectorJoint.srv",
+    "/root/RBE500_Manipulator_Project/ws_2/src/velocity_kinematics_interfaces:msg/EndEffectorVelocity.msg"
   ]
 }

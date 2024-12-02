@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_py.dir/rosidl_generator_py/velocity_kinematics_interfaces/msg/_end_effector_velocity_s.c.o"
+  "CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_py.dir/rosidl_generator_py/velocity_kinematics_interfaces/msg/_end_effector_velocity_s.c.o.d"
   "CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_py.dir/rosidl_generator_py/velocity_kinematics_interfaces/srv/_end_effector_joint_s.c.o"
   "CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_py.dir/rosidl_generator_py/velocity_kinematics_interfaces/srv/_end_effector_joint_s.c.o.d"
   "CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_py.dir/rosidl_generator_py/velocity_kinematics_interfaces/srv/_joint_end_effector_s.c.o"

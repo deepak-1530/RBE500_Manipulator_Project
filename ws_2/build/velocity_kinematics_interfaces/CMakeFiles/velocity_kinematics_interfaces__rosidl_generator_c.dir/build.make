@@ -84,6 +84,7 @@ rosidl_generator_c/velocity_kinematics_interfaces/srv/joint_end_effector.h: /opt
 rosidl_generator_c/velocity_kinematics_interfaces/srv/joint_end_effector.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/velocity_kinematics_interfaces/srv/joint_end_effector.h: rosidl_adapter/velocity_kinematics_interfaces/srv/JointEndEffector.idl
 rosidl_generator_c/velocity_kinematics_interfaces/srv/joint_end_effector.h: rosidl_adapter/velocity_kinematics_interfaces/srv/EndEffectorJoint.idl
+rosidl_generator_c/velocity_kinematics_interfaces/srv/joint_end_effector.h: rosidl_adapter/velocity_kinematics_interfaces/msg/EndEffectorVelocity.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_generator_c__arguments.json
 
@@ -108,11 +109,26 @@ rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/end_effector_joint_
 rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/end_effector_joint__type_support.h: rosidl_generator_c/velocity_kinematics_interfaces/srv/joint_end_effector.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/end_effector_joint__type_support.h
 
+rosidl_generator_c/velocity_kinematics_interfaces/msg/end_effector_velocity.h: rosidl_generator_c/velocity_kinematics_interfaces/srv/joint_end_effector.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/velocity_kinematics_interfaces/msg/end_effector_velocity.h
+
+rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.h: rosidl_generator_c/velocity_kinematics_interfaces/srv/joint_end_effector.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.h
+
+rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__struct.h: rosidl_generator_c/velocity_kinematics_interfaces/srv/joint_end_effector.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__struct.h
+
+rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__type_support.h: rosidl_generator_c/velocity_kinematics_interfaces/srv/joint_end_effector.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__type_support.h
+
 rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_end_effector__functions.c: rosidl_generator_c/velocity_kinematics_interfaces/srv/joint_end_effector.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_end_effector__functions.c
 
 rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/end_effector_joint__functions.c: rosidl_generator_c/velocity_kinematics_interfaces/srv/joint_end_effector.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/end_effector_joint__functions.c
+
+rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.c: rosidl_generator_c/velocity_kinematics_interfaces/srv/joint_end_effector.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.c
 
 CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_end_effector__functions.c.o: CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_end_effector__functions.c.o: rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_end_effector__functions.c
@@ -142,21 +158,37 @@ CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generat
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/end_effector_joint__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/end_effector_joint__functions.c -o CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/end_effector_joint__functions.c.s
 
+CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.c.o: CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.c.o: rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.c
+CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.c.o: CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.c.o -MF CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.c.o.d -o CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.c.o -c /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.c
+
+CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.c > CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.c.i
+
+CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.c -o CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.c.s
+
 # Object files for target velocity_kinematics_interfaces__rosidl_generator_c
 velocity_kinematics_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_end_effector__functions.c.o" \
-"CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/end_effector_joint__functions.c.o"
+"CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/end_effector_joint__functions.c.o" \
+"CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.c.o"
 
 # External object files for target velocity_kinematics_interfaces__rosidl_generator_c
 velocity_kinematics_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libvelocity_kinematics_interfaces__rosidl_generator_c.so: CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/joint_end_effector__functions.c.o
 libvelocity_kinematics_interfaces__rosidl_generator_c.so: CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/end_effector_joint__functions.c.o
+libvelocity_kinematics_interfaces__rosidl_generator_c.so: CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.c.o
 libvelocity_kinematics_interfaces__rosidl_generator_c.so: CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/build.make
 libvelocity_kinematics_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libvelocity_kinematics_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libvelocity_kinematics_interfaces__rosidl_generator_c.so: CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libvelocity_kinematics_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libvelocity_kinematics_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -167,6 +199,11 @@ CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/clean
 
+CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.c
+CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__functions.h
+CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__struct.h
+CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/velocity_kinematics_interfaces/msg/detail/end_effector_velocity__type_support.h
+CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/velocity_kinematics_interfaces/msg/end_effector_velocity.h
 CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/end_effector_joint__functions.c
 CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/end_effector_joint__functions.h
 CMakeFiles/velocity_kinematics_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/velocity_kinematics_interfaces/srv/detail/end_effector_joint__struct.h

@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from velocity_kinematics_interfaces/msg/EndEffectorVelocity.msg
+// generated code does not contain a copyright notice
+
+
+module velocity_kinematics_interfaces {
+  module msg {
+    struct EndEffectorVelocity {
+      float vx;
+
+      float vy;
+
+      float vz;
+
+      float wx;
+
+      float wy;
+
+      float wz;
+    };
+  };
+};

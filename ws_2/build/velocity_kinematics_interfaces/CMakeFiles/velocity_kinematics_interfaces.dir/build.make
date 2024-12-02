@@ -72,6 +72,7 @@ CMakeFiles/velocity_kinematics_interfaces: rosidl_cmake/srv/JointEndEffector_Res
 CMakeFiles/velocity_kinematics_interfaces: /root/RBE500_Manipulator_Project/ws_2/src/velocity_kinematics_interfaces/srv/EndEffectorJoint.srv
 CMakeFiles/velocity_kinematics_interfaces: rosidl_cmake/srv/EndEffectorJoint_Request.msg
 CMakeFiles/velocity_kinematics_interfaces: rosidl_cmake/srv/EndEffectorJoint_Response.msg
+CMakeFiles/velocity_kinematics_interfaces: /root/RBE500_Manipulator_Project/ws_2/src/velocity_kinematics_interfaces/msg/EndEffectorVelocity.msg
 
 velocity_kinematics_interfaces: CMakeFiles/velocity_kinematics_interfaces
 velocity_kinematics_interfaces: CMakeFiles/velocity_kinematics_interfaces.dir/build.make

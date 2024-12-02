@@ -4,7 +4,8 @@
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource",
   "idl_tuples": [
     "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces:srv/JointEndEffector.idl",
-    "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces:srv/EndEffectorJoint.idl"
+    "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces:srv/EndEffectorJoint.idl",
+    "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces:msg/EndEffectorVelocity.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
@@ -16,6 +17,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
     "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces/srv/JointEndEffector.idl",
-    "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces/srv/EndEffectorJoint.idl"
+    "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces/srv/EndEffectorJoint.idl",
+    "/root/RBE500_Manipulator_Project/ws_2/build/velocity_kinematics_interfaces/rosidl_adapter/velocity_kinematics_interfaces/msg/EndEffectorVelocity.idl"
   ]
 }
